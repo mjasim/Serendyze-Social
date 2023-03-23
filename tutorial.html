@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+    }
+
+    text {
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .commentText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .serenText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .topicbtn:hover {
+        background-color: lightgray !important;
+        cursor: pointer !important;
+    }
+
+    .discbtn:hover {
+        /* background-color: lightgray !important; */
+        cursor: pointer;
+    }
+
+    .loader {
+        border: 8px solid #b3e5fc;
+        border-radius: 50%;
+        border-top: 8px solid black;
+        width: 8px;
+        height: 8px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+    }
+
+    .metbar:hover {
+        cursor: pointer;
+    }
+
+    #proceed:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="jquery.paginate.css">
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- Amazon -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+    <a class="navbar-brand" href="#" onclick="reload_page()" title="Refresh Page and Start Over">
+        <img src="images/dice.png" width="30" height="30" alt="">
+        DICE
+    </a>
+    <button class="navbar-toggler py-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon py-0"></span>
+    </button>
+
+    <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto py-0">
+            <li class="nav-item active py-0">
+                <a class="nav-link py-0" href="#" onclick="gototutorial()"
+                    title="Open Tutorial in a new window">Tutorial<span class="sr-only py-0">(current)</span></a>
+            </li>
+            <li class="nav-item active py-0">
+                <a class="nav-link py-0" href="#" data-toggle="modal" data-target="#aboutModal" title="About">About<span
+                        class="sr-only py-0">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade bd-example-modal-lg" id="aboutModal" tabindex="-1" role="dialog"
+    aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalLabel">About</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Dice is a research project aimed to study how users explore short free-form text information online
+                    before making a decision. If you have any question about the project, contact:
+                    <address>
+                        <b>Mahmood Jasim</b><br>
+                        Graduate Researcher<br>
+                        College of Information and Computer Sciences<br>
+                        University of Massachusetts<br>
+                        Amherst, MA - 01002<br>
+                        Email: <a href="mailto:mjasim@cs.umass.edu">mjasim@cs.umass.edu</a><br>
+                    </address>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container"
+    style="display:flex; flex-direction: column; justify-content: flex-start; align-items: center; overflow-y: auto;">
+    <div>
+        <h3>Objective and Tutorial</h3>
+
+        <p>This tutorial introduces the study objectives and various functionalities of this tool called <b>DICE</b>.
+            You can
+            access this
+            tutorial anytime from the
+            navigation bar.</p>
+
+        <p style="color:red"><span><img src="images/alert-icon-red.png"
+                    style="width: 25px; height: 20px;margin-right: 10px;"></span>Refreshing the page will result in
+            losing all progress. Please do not
+            refresh the page unless you want to start over.</p>
+
+        <h3>Study Objective:</h3>
+        <p> In this step of the study you will thoroughly explore the product reviews from 3 headphones and
+            decide which particular
+            headphone you would refer to someone.
+            <b>After you have made the final decision, click the decision button at the top right of the navigation
+                bar</b>. A
+            post study questionnaire will follow
+            that will ask you a few questions about your decision-making process. Once you have answered all questions,
+            proceed to M-Turk and finish the study.
+        </p>
+
+        <h3>Tutorial</h3>
+        <h5>Selecting a Product:</h5>
+        <p> Click on the dropdown to select a product to explore. You can switch between the products at any time.</p>
+        <img src="images/select_product.png"
+            style="width:40%; align-items: center; display: block; margin-left: auto; margin-right: auto;"></img>
+
+        <h5>Interface Features:</h5>
+        <p>The interface has the following features:</p>
+        <ul>
+            <li><b>Keywords:</b> These are the most frequent keyword pairs that are present in the reviews.</li>
+            <li><b>Sentiments:</b> These categories represent different sentiments present in the reviews.</li>
+            <li><b>Exploration metrics:</b> These metrics (Visit, Coverage, and Distribution) provide you with tracking
+                information based on your exploration of the review reviews.<br>
+                <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#81d4fa" aria-hidden="true"></i> Visit
+                information
+                shows the amount of reviews you have interacted with directly by clicking or hovering over them for 3
+                seconds.<br>
+                <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB" aria-hidden="true"></i> Coverage
+                information
+                shows
+                the amount of reviews you have covered implicitly, including the reviews that are very
+                similar
+                and redundant to the ones you have previously interacted with.<br>
+                <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden="true"></i>
+                Distribution information
+                shows the proportion of review sentiments you have directly interacted
+                with.</li>
+            <li><b>List of reviews:</b> The list provides the reviews along with their associated sentiments.</li>
+            <li><b>List of suggested reviews that you may find useful:</b> The list provides the reviews suggested based
+                on your interaction
+                with other reviews.
+            </li>
+        </ul>
+
+        <img src="images/interface_options.png"
+            style="width:100%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+
+        <h5>Filtering reviews:</h5>
+        <p>Select the keywords and sentiments to filter the review reviews accordingly. You can
+            use a keyword pair and a sentiment at the same time. If you select keyword pair, they will be
+            highlighted in the reviews where they appear.</p>
+
+        <img src="images/filtering.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+        <p>You can also use the search option to search for any keyword of your choice. The
+            keyword you searched will be
+            highlighted in the reviews where they appear.</p>
+
+        <img src="images/filtering_search.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+
+        <h5>Interacting with the reviews:</h5>
+        <p><b>You can select or hover on a review for a while to mark it as read</b>. DICE will keep a record
+            of your progress and track the reviews
+            you are interacting with. </p>
+
+        <img src="images/comment_interact.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+
+        <h5>Exploration metrics:</h5>
+        <p>The exploration metric bars provide information on how you have been exploring the reviews. The are three
+            metrics
+            bars.</p>
+
+        <p><b>Visit: </b>Visit presents the number of reviews you have read and marked as read by clicking or hovering
+            on it for
+            more than 3 seconds. It essentially tells you how many reviews you have already looked at. In the
+            example below, you have read 28% reviews.</p>
+
+        <img src="images/visit.png"
+            style="width:40%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+
+        <p><b>Coverage: </b>Coverage presents the amount of reviews you have knowledge about based on your interactions
+            with reviews. Oftentimes, there are reviews that are similar and redundant to the reviews you have
+            already read. Essentially, it tells you how many redundant reviews you implicitly have knowledge on. In
+            the example below, you have covered 45% reviews despite visiting or reading 28% reviews. The extra 17%
+            (45%
+            -
+            28%) reviews are similar and redundant to the reviews you have read already.</p>
+
+        <img src="images/coverage.png"
+            style="width:40%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+
+        <p><b>Distribution: </b>Distribution presents what kind of sentiments you have been exploring. It essentially
+            tells you whether you are focusing on reviews with similar sentiments or your are exploring all sentiments
+            comprehensively. In the example below, you have read 12% positive and 11% neutral reviews but covered 32% negative reviews. </p>
+
+        <img src="images/distribution.png"
+            style="width:40%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+        <p>
+            Hovering over Visit or Coverage metric bars will show the review exploration progress corresponding to the most
+            frequent
+            terms and sentiments.
+        </p>
+
+        <img src="images/metrics_hover.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+        <p>
+            Clicking on Visit or Coverage metric bars will filter the reviews and only show the review associated with your
+            selection. In the following example, only the Coverage metric bar is selected. The reviews are filtered
+            accordingly and only reviews that are
+            covered are shown.
+        </p>
+
+        <img src="images/metrics_click.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+        <h5>Suggested reviews that you may find useful</h5>
+        <p> Depending on your exploration history (the reviews you have been interacting with, DICE will provide
+            you with suggested reviews from the the reviews that you have not visited yet. You can use the checkbox
+            beside the product selection dropdown to toggle the suggestions on
+            or off. You can also interact with the suggested reviews similar to regular reviews. You can click or
+            hover on the suggested reviews for 3 seconds to mark them as read. Once you interact with regular reviews
+            or suggested reviews with the suggested reviews window open, DICE will provide you with newly
+            suggested reviews based on your interactions. <b> Suggesting reviews takes some time. Please wait until
+                the wait spinner (<img src="images/hg.gif" style="height:15px; width: 15px;"></img>) stops moving
+                completely
+                before marking another review as read to get new suggestions.</b>
+        </p>
+
+        <p>
+            The suggested reviews you interacted with already are displayed below the new suggested reviews in reverse-chronological order, the review you interacted with last, will show up at the top.
+        </p>
+
+        <img src="images/suggestion_history.png"
+            style="width:80%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img>
+
+        <!-- <img src="images/dice toggle.png"
+            style="width:90%; align-items: center; display: block; margin-left: auto; margin-right: auto; margin-bottom: 20px;"></img> -->
+
+        <h5>That concludes our tutorial. Remember, you can access this tutorial at any time by clicking on the Tutorial
+            button in the navigation bar.</h5>
+    </div>
+
+    <div id="proceed" title="Proceed"
+        style="display: flex; flex-direction: row; justify-content: center; align-items: center; width: 200px; height: 30px; border-radius: 20px; border: solid thin lightgray; text-align: center; margin: 20px;"
+        onclick="gotoStudy()">
+        Proceed to Study <i class="fa fa-arrow-right" style="margin-left:10px" aria-hidden="true"></i>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="interaction_log.js"></script>
+<script type="text/javascript" src="hilitor.js"></script>
+<script src="jquery.paginate.js"></script>
+
+<script>
+    function gotoStudy() {
+        window.open('dice.html', "_self")
+    }
+
+    function gototutorial() {
+        window.open('tutorial.html', "_self")
+    }
+
+    function reload_page() {
+        logInteraction('click,nav_dice_brand,reload');
+        window.location.reload()
+        return false
+    }
+</script>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<div style="display:flex; flex-direction: column; align-items: center; justify-content: center;">
+    <h3>Thank you for participating in our study.</h3>
+    <h1 id="useridtext" style="margin-top:50px; margin-bottom: 50px;"></h1>
+    <h3> You input has been saved. If you are a Mechanical Turker, please copy your user ID and proceed to
+        Mechanical-Turk for the last step to finish the study and receive your payment.</h3>
+</div>
+
+<script>
+    document.getElementById("useridtext").innerHTML = "Your user ID is: " + localStorage.getItem("userID_dice")
+</script>

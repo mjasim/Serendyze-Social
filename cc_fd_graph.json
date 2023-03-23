@@ -1,0 +1,7882 @@
+[{
+    "nodes": [{
+        "id": "towers_0",
+        "group": 0,
+        "label": "towers"
+    }, {
+        "id": "impact_0",
+        "group": 0,
+        "label": "impact"
+    }, {
+        "id": "people_0",
+        "group": 0,
+        "label": "people"
+    }, {
+        "id": "chime_0",
+        "group": 0,
+        "label": "chime"
+    }, {
+        "id": "village_0",
+        "group": 0,
+        "label": "village"
+    }, {
+        "id": "fine_0",
+        "group": 0,
+        "label": "fine"
+    }, {
+        "id": "connectivity_0",
+        "group": 0,
+        "label": "connectivity"
+    }, {
+        "id": "personal_0",
+        "group": 0,
+        "label": "personal"
+    }, {
+        "id": "mix_0",
+        "group": 0,
+        "label": "mix"
+    }, {
+        "id": "blockage_0",
+        "group": 0,
+        "label": "blockage"
+    }, {
+        "id": "limit_0",
+        "group": 0,
+        "label": "limit"
+    }, {
+        "id": "more city_1",
+        "group": 1,
+        "label": "more city"
+    }, {
+        "id": "impact_1",
+        "group": 1,
+        "label": "impact"
+    }, {
+        "id": "people_1",
+        "group": 1,
+        "label": "people"
+    }, {
+        "id": "chime_1",
+        "group": 1,
+        "label": "chime"
+    }, {
+        "id": "village_1",
+        "group": 1,
+        "label": "village"
+    }, {
+        "id": "fine_1",
+        "group": 1,
+        "label": "fine"
+    }, {
+        "id": "connectivity_1",
+        "group": 1,
+        "label": "connectivity"
+    }, {
+        "id": "personal_1",
+        "group": 1,
+        "label": "personal"
+    }, {
+        "id": "mix_1",
+        "group": 1,
+        "label": "mix"
+    }, {
+        "id": "blockage_1",
+        "group": 1,
+        "label": "blockage"
+    }, {
+        "id": "limit_1",
+        "group": 1,
+        "label": "limit"
+    }, {
+        "id": "green space_2",
+        "group": 2,
+        "label": "green space"
+    }, {
+        "id": "impact_2",
+        "group": 2,
+        "label": "impact"
+    }, {
+        "id": "people_2",
+        "group": 2,
+        "label": "people"
+    }, {
+        "id": "chime_2",
+        "group": 2,
+        "label": "chime"
+    }, {
+        "id": "village_2",
+        "group": 2,
+        "label": "village"
+    }, {
+        "id": "fine_2",
+        "group": 2,
+        "label": "fine"
+    }, {
+        "id": "connectivity_2",
+        "group": 2,
+        "label": "connectivity"
+    }, {
+        "id": "personal_2",
+        "group": 2,
+        "label": "personal"
+    }, {
+        "id": "mix_2",
+        "group": 2,
+        "label": "mix"
+    }, {
+        "id": "blockage_2",
+        "group": 2,
+        "label": "blockage"
+    }, {
+        "id": "limit_2",
+        "group": 2,
+        "label": "limit"
+    }, {
+        "id": "time_3",
+        "group": 3,
+        "label": "time"
+    }, {
+        "id": "impact_3",
+        "group": 3,
+        "label": "impact"
+    }, {
+        "id": "people_3",
+        "group": 3,
+        "label": "people"
+    }, {
+        "id": "chime_3",
+        "group": 3,
+        "label": "chime"
+    }, {
+        "id": "village_3",
+        "group": 3,
+        "label": "village"
+    }, {
+        "id": "fine_3",
+        "group": 3,
+        "label": "fine"
+    }, {
+        "id": "connectivity_3",
+        "group": 3,
+        "label": "connectivity"
+    }, {
+        "id": "personal_3",
+        "group": 3,
+        "label": "personal"
+    }, {
+        "id": "mix_3",
+        "group": 3,
+        "label": "mix"
+    }, {
+        "id": "blockage_3",
+        "group": 3,
+        "label": "blockage"
+    }, {
+        "id": "limit_3",
+        "group": 3,
+        "label": "limit"
+    }, {
+        "id": "art designs_4",
+        "group": 4,
+        "label": "art designs"
+    }, {
+        "id": "impact_4",
+        "group": 4,
+        "label": "impact"
+    }, {
+        "id": "people_4",
+        "group": 4,
+        "label": "people"
+    }, {
+        "id": "chime_4",
+        "group": 4,
+        "label": "chime"
+    }, {
+        "id": "village_4",
+        "group": 4,
+        "label": "village"
+    }, {
+        "id": "fine_4",
+        "group": 4,
+        "label": "fine"
+    }, {
+        "id": "connectivity_4",
+        "group": 4,
+        "label": "connectivity"
+    }, {
+        "id": "personal_4",
+        "group": 4,
+        "label": "personal"
+    }, {
+        "id": "mix_4",
+        "group": 4,
+        "label": "mix"
+    }, {
+        "id": "blockage_4",
+        "group": 4,
+        "label": "blockage"
+    }, {
+        "id": "limit_4",
+        "group": 4,
+        "label": "limit"
+    }, {
+        "id": "blue green_5",
+        "group": 5,
+        "label": "blue green"
+    }, {
+        "id": "impact_5",
+        "group": 5,
+        "label": "impact"
+    }, {
+        "id": "people_5",
+        "group": 5,
+        "label": "people"
+    }, {
+        "id": "chime_5",
+        "group": 5,
+        "label": "chime"
+    }, {
+        "id": "village_5",
+        "group": 5,
+        "label": "village"
+    }, {
+        "id": "fine_5",
+        "group": 5,
+        "label": "fine"
+    }, {
+        "id": "connectivity_5",
+        "group": 5,
+        "label": "connectivity"
+    }, {
+        "id": "personal_5",
+        "group": 5,
+        "label": "personal"
+    }, {
+        "id": "mix_5",
+        "group": 5,
+        "label": "mix"
+    }, {
+        "id": "blockage_5",
+        "group": 5,
+        "label": "blockage"
+    }, {
+        "id": "limit_5",
+        "group": 5,
+        "label": "limit"
+    }],
+    "links": [{
+        "source": "impact_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "people_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "chime_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "village_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "fine_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "connectivity_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "personal_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "mix_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "blockage_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "limit_0",
+        "target": "towers_0",
+        "value": 1
+    }, {
+        "source": "impact_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "people_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "chime_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "village_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "fine_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "connectivity_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "personal_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "mix_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "blockage_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "limit_1",
+        "target": "more city_1",
+        "value": 1
+    }, {
+        "source": "impact_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "people_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "chime_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "village_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "fine_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "connectivity_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "personal_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "mix_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "blockage_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "limit_2",
+        "target": "green space_2",
+        "value": 1
+    }, {
+        "source": "impact_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "people_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "chime_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "village_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "fine_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "connectivity_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "personal_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "mix_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "blockage_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "limit_3",
+        "target": "time_3",
+        "value": 1
+    }, {
+        "source": "impact_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "people_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "chime_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "village_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "fine_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "connectivity_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "personal_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "mix_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "blockage_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "limit_4",
+        "target": "art designs_4",
+        "value": 1
+    }, {
+        "source": "impact_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "people_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "chime_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "village_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "fine_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "connectivity_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "personal_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "mix_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "blockage_5",
+        "target": "blue green_5",
+        "value": 1
+    }, {
+        "source": "limit_5",
+        "target": "blue green_5",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "major art piece_0",
+        "group": 0,
+        "label": "major art piece"
+    }, {
+        "id": "care_0",
+        "group": 0,
+        "label": "care"
+    }, {
+        "id": "great_0",
+        "group": 0,
+        "label": "great"
+    }, {
+        "id": "piece_0",
+        "group": 0,
+        "label": "piece"
+    }, {
+        "id": "family_0",
+        "group": 0,
+        "label": "family"
+    }, {
+        "id": "activity_0",
+        "group": 0,
+        "label": "activity"
+    }, {
+        "id": "pride_0",
+        "group": 0,
+        "label": "pride"
+    }, {
+        "id": "participate_0",
+        "group": 0,
+        "label": "participate"
+    }, {
+        "id": "deal_0",
+        "group": 0,
+        "label": "deal"
+    }, {
+        "id": "impact_0",
+        "group": 0,
+        "label": "impact"
+    }, {
+        "id": "curate_0",
+        "group": 0,
+        "label": "curate"
+    }, {
+        "id": "art_1",
+        "group": 1,
+        "label": "art"
+    }, {
+        "id": "care_1",
+        "group": 1,
+        "label": "care"
+    }, {
+        "id": "great_1",
+        "group": 1,
+        "label": "great"
+    }, {
+        "id": "piece_1",
+        "group": 1,
+        "label": "piece"
+    }, {
+        "id": "family_1",
+        "group": 1,
+        "label": "family"
+    }, {
+        "id": "activity_1",
+        "group": 1,
+        "label": "activity"
+    }, {
+        "id": "pride_1",
+        "group": 1,
+        "label": "pride"
+    }, {
+        "id": "participate_1",
+        "group": 1,
+        "label": "participate"
+    }, {
+        "id": "deal_1",
+        "group": 1,
+        "label": "deal"
+    }, {
+        "id": "impact_1",
+        "group": 1,
+        "label": "impact"
+    }, {
+        "id": "curate_1",
+        "group": 1,
+        "label": "curate"
+    }],
+    "links": [{
+        "source": "care_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "great_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "piece_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "family_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "activity_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "pride_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "participate_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "deal_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "impact_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "curate_0",
+        "target": "major art piece_0",
+        "value": 1
+    }, {
+        "source": "care_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "great_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "piece_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "family_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "activity_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "pride_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "participate_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "deal_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "impact_1",
+        "target": "art_1",
+        "value": 1
+    }, {
+        "source": "curate_1",
+        "target": "art_1",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "motor traffic_0",
+        "group": 0,
+        "label": "motor traffic"
+    }, {
+        "id": "make_0",
+        "group": 0,
+        "label": "make"
+    }, {
+        "id": "interaction_0",
+        "group": 0,
+        "label": "interaction"
+    }, {
+        "id": "trolley_0",
+        "group": 0,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_0",
+        "group": 0,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_0",
+        "group": 0,
+        "label": "circulation"
+    }, {
+        "id": "private_0",
+        "group": 0,
+        "label": "private"
+    }, {
+        "id": "vehicle_0",
+        "group": 0,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_0",
+        "group": 0,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_0",
+        "group": 0,
+        "label": "simplify"
+    }, {
+        "id": "lot_0",
+        "group": 0,
+        "label": "lot"
+    }, {
+        "id": "traffic_1",
+        "group": 1,
+        "label": "traffic"
+    }, {
+        "id": "make_1",
+        "group": 1,
+        "label": "make"
+    }, {
+        "id": "interaction_1",
+        "group": 1,
+        "label": "interaction"
+    }, {
+        "id": "trolley_1",
+        "group": 1,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_1",
+        "group": 1,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_1",
+        "group": 1,
+        "label": "circulation"
+    }, {
+        "id": "private_1",
+        "group": 1,
+        "label": "private"
+    }, {
+        "id": "vehicle_1",
+        "group": 1,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_1",
+        "group": 1,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_1",
+        "group": 1,
+        "label": "simplify"
+    }, {
+        "id": "lot_1",
+        "group": 1,
+        "label": "lot"
+    }, {
+        "id": "other international cities_2",
+        "group": 2,
+        "label": "other international cities"
+    }, {
+        "id": "make_2",
+        "group": 2,
+        "label": "make"
+    }, {
+        "id": "interaction_2",
+        "group": 2,
+        "label": "interaction"
+    }, {
+        "id": "trolley_2",
+        "group": 2,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_2",
+        "group": 2,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_2",
+        "group": 2,
+        "label": "circulation"
+    }, {
+        "id": "private_2",
+        "group": 2,
+        "label": "private"
+    }, {
+        "id": "vehicle_2",
+        "group": 2,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_2",
+        "group": 2,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_2",
+        "group": 2,
+        "label": "simplify"
+    }, {
+        "id": "lot_2",
+        "group": 2,
+        "label": "lot"
+    }, {
+        "id": "several dog fights_3",
+        "group": 3,
+        "label": "several dog fights"
+    }, {
+        "id": "make_3",
+        "group": 3,
+        "label": "make"
+    }, {
+        "id": "interaction_3",
+        "group": 3,
+        "label": "interaction"
+    }, {
+        "id": "trolley_3",
+        "group": 3,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_3",
+        "group": 3,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_3",
+        "group": 3,
+        "label": "circulation"
+    }, {
+        "id": "private_3",
+        "group": 3,
+        "label": "private"
+    }, {
+        "id": "vehicle_3",
+        "group": 3,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_3",
+        "group": 3,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_3",
+        "group": 3,
+        "label": "simplify"
+    }, {
+        "id": "lot_3",
+        "group": 3,
+        "label": "lot"
+    }, {
+        "id": "awkward crossings_8",
+        "group": 8,
+        "label": "awkward crossings"
+    }, {
+        "id": "make_8",
+        "group": 8,
+        "label": "make"
+    }, {
+        "id": "interaction_8",
+        "group": 8,
+        "label": "interaction"
+    }, {
+        "id": "trolley_8",
+        "group": 8,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_8",
+        "group": 8,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_8",
+        "group": 8,
+        "label": "circulation"
+    }, {
+        "id": "private_8",
+        "group": 8,
+        "label": "private"
+    }, {
+        "id": "vehicle_8",
+        "group": 8,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_8",
+        "group": 8,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_8",
+        "group": 8,
+        "label": "simplify"
+    }, {
+        "id": "lot_8",
+        "group": 8,
+        "label": "lot"
+    }, {
+        "id": "pedestrians_9",
+        "group": 9,
+        "label": "pedestrians"
+    }, {
+        "id": "make_9",
+        "group": 9,
+        "label": "make"
+    }, {
+        "id": "interaction_9",
+        "group": 9,
+        "label": "interaction"
+    }, {
+        "id": "trolley_9",
+        "group": 9,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_9",
+        "group": 9,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_9",
+        "group": 9,
+        "label": "circulation"
+    }, {
+        "id": "private_9",
+        "group": 9,
+        "label": "private"
+    }, {
+        "id": "vehicle_9",
+        "group": 9,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_9",
+        "group": 9,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_9",
+        "group": 9,
+        "label": "simplify"
+    }, {
+        "id": "lot_9",
+        "group": 9,
+        "label": "lot"
+    }, {
+        "id": "downtown_10",
+        "group": 10,
+        "label": "downtown"
+    }, {
+        "id": "make_10",
+        "group": 10,
+        "label": "make"
+    }, {
+        "id": "interaction_10",
+        "group": 10,
+        "label": "interaction"
+    }, {
+        "id": "trolley_10",
+        "group": 10,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_10",
+        "group": 10,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_10",
+        "group": 10,
+        "label": "circulation"
+    }, {
+        "id": "private_10",
+        "group": 10,
+        "label": "private"
+    }, {
+        "id": "vehicle_10",
+        "group": 10,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_10",
+        "group": 10,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_10",
+        "group": 10,
+        "label": "simplify"
+    }, {
+        "id": "lot_10",
+        "group": 10,
+        "label": "lot"
+    }, {
+        "id": "building bridges_11",
+        "group": 11,
+        "label": "building bridges"
+    }, {
+        "id": "make_11",
+        "group": 11,
+        "label": "make"
+    }, {
+        "id": "interaction_11",
+        "group": 11,
+        "label": "interaction"
+    }, {
+        "id": "trolley_11",
+        "group": 11,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_11",
+        "group": 11,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_11",
+        "group": 11,
+        "label": "circulation"
+    }, {
+        "id": "private_11",
+        "group": 11,
+        "label": "private"
+    }, {
+        "id": "vehicle_11",
+        "group": 11,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_11",
+        "group": 11,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_11",
+        "group": 11,
+        "label": "simplify"
+    }, {
+        "id": "lot_11",
+        "group": 11,
+        "label": "lot"
+    }, {
+        "id": "private vehicle motor traffic_13",
+        "group": 13,
+        "label": "private vehicle motor traffic"
+    }, {
+        "id": "make_13",
+        "group": 13,
+        "label": "make"
+    }, {
+        "id": "interaction_13",
+        "group": 13,
+        "label": "interaction"
+    }, {
+        "id": "trolley_13",
+        "group": 13,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_13",
+        "group": 13,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_13",
+        "group": 13,
+        "label": "circulation"
+    }, {
+        "id": "private_13",
+        "group": 13,
+        "label": "private"
+    }, {
+        "id": "vehicle_13",
+        "group": 13,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_13",
+        "group": 13,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_13",
+        "group": 13,
+        "label": "simplify"
+    }, {
+        "id": "lot_13",
+        "group": 13,
+        "label": "lot"
+    }, {
+        "id": "human interactions_15",
+        "group": 15,
+        "label": "human interactions"
+    }, {
+        "id": "make_15",
+        "group": 15,
+        "label": "make"
+    }, {
+        "id": "interaction_15",
+        "group": 15,
+        "label": "interaction"
+    }, {
+        "id": "trolley_15",
+        "group": 15,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_15",
+        "group": 15,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_15",
+        "group": 15,
+        "label": "circulation"
+    }, {
+        "id": "private_15",
+        "group": 15,
+        "label": "private"
+    }, {
+        "id": "vehicle_15",
+        "group": 15,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_15",
+        "group": 15,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_15",
+        "group": 15,
+        "label": "simplify"
+    }, {
+        "id": "lot_15",
+        "group": 15,
+        "label": "lot"
+    }, {
+        "id": "motor traffic downtown_16",
+        "group": 16,
+        "label": "motor traffic downtown"
+    }, {
+        "id": "make_16",
+        "group": 16,
+        "label": "make"
+    }, {
+        "id": "interaction_16",
+        "group": 16,
+        "label": "interaction"
+    }, {
+        "id": "trolley_16",
+        "group": 16,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_16",
+        "group": 16,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_16",
+        "group": 16,
+        "label": "circulation"
+    }, {
+        "id": "private_16",
+        "group": 16,
+        "label": "private"
+    }, {
+        "id": "vehicle_16",
+        "group": 16,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_16",
+        "group": 16,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_16",
+        "group": 16,
+        "label": "simplify"
+    }, {
+        "id": "lot_16",
+        "group": 16,
+        "label": "lot"
+    }, {
+        "id": "vehicle directions_20",
+        "group": 20,
+        "label": "vehicle directions"
+    }, {
+        "id": "make_20",
+        "group": 20,
+        "label": "make"
+    }, {
+        "id": "interaction_20",
+        "group": 20,
+        "label": "interaction"
+    }, {
+        "id": "trolley_20",
+        "group": 20,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_20",
+        "group": 20,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_20",
+        "group": 20,
+        "label": "circulation"
+    }, {
+        "id": "private_20",
+        "group": 20,
+        "label": "private"
+    }, {
+        "id": "vehicle_20",
+        "group": 20,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_20",
+        "group": 20,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_20",
+        "group": 20,
+        "label": "simplify"
+    }, {
+        "id": "lot_20",
+        "group": 20,
+        "label": "lot"
+    }, {
+        "id": "barrio logan_21",
+        "group": 21,
+        "label": "barrio logan"
+    }, {
+        "id": "make_21",
+        "group": 21,
+        "label": "make"
+    }, {
+        "id": "interaction_21",
+        "group": 21,
+        "label": "interaction"
+    }, {
+        "id": "trolley_21",
+        "group": 21,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_21",
+        "group": 21,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_21",
+        "group": 21,
+        "label": "circulation"
+    }, {
+        "id": "private_21",
+        "group": 21,
+        "label": "private"
+    }, {
+        "id": "vehicle_21",
+        "group": 21,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_21",
+        "group": 21,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_21",
+        "group": 21,
+        "label": "simplify"
+    }, {
+        "id": "lot_21",
+        "group": 21,
+        "label": "lot"
+    }, {
+        "id": "auto traffic_22",
+        "group": 22,
+        "label": "auto traffic"
+    }, {
+        "id": "make_22",
+        "group": 22,
+        "label": "make"
+    }, {
+        "id": "interaction_22",
+        "group": 22,
+        "label": "interaction"
+    }, {
+        "id": "trolley_22",
+        "group": 22,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_22",
+        "group": 22,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_22",
+        "group": 22,
+        "label": "circulation"
+    }, {
+        "id": "private_22",
+        "group": 22,
+        "label": "private"
+    }, {
+        "id": "vehicle_22",
+        "group": 22,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_22",
+        "group": 22,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_22",
+        "group": 22,
+        "label": "simplify"
+    }, {
+        "id": "lot_22",
+        "group": 22,
+        "label": "lot"
+    }, {
+        "id": " traffic circles_23",
+        "group": 23,
+        "label": " traffic circles"
+    }, {
+        "id": "make_23",
+        "group": 23,
+        "label": "make"
+    }, {
+        "id": "interaction_23",
+        "group": 23,
+        "label": "interaction"
+    }, {
+        "id": "trolley_23",
+        "group": 23,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_23",
+        "group": 23,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_23",
+        "group": 23,
+        "label": "circulation"
+    }, {
+        "id": "private_23",
+        "group": 23,
+        "label": "private"
+    }, {
+        "id": "vehicle_23",
+        "group": 23,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_23",
+        "group": 23,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_23",
+        "group": 23,
+        "label": "simplify"
+    }, {
+        "id": "lot_23",
+        "group": 23,
+        "label": "lot"
+    }, {
+        "id": "iconic public art_27",
+        "group": 27,
+        "label": "iconic public art"
+    }, {
+        "id": "make_27",
+        "group": 27,
+        "label": "make"
+    }, {
+        "id": "interaction_27",
+        "group": 27,
+        "label": "interaction"
+    }, {
+        "id": "trolley_27",
+        "group": 27,
+        "label": "trolley"
+    }, {
+        "id": "opportunity_27",
+        "group": 27,
+        "label": "opportunity"
+    }, {
+        "id": "circulation_27",
+        "group": 27,
+        "label": "circulation"
+    }, {
+        "id": "private_27",
+        "group": 27,
+        "label": "private"
+    }, {
+        "id": "vehicle_27",
+        "group": 27,
+        "label": "vehicle"
+    }, {
+        "id": "pleasant_27",
+        "group": 27,
+        "label": "pleasant"
+    }, {
+        "id": "simplify_27",
+        "group": 27,
+        "label": "simplify"
+    }, {
+        "id": "lot_27",
+        "group": 27,
+        "label": "lot"
+    }],
+    "links": [{
+        "source": "make_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "interaction_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "trolley_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "opportunity_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "circulation_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "private_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "vehicle_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "pleasant_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "simplify_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "lot_0",
+        "target": "motor traffic_0",
+        "value": 1
+    }, {
+        "source": "make_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "interaction_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "trolley_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "opportunity_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "circulation_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "private_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "vehicle_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "pleasant_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "simplify_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "lot_1",
+        "target": "traffic_1",
+        "value": 1
+    }, {
+        "source": "make_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "interaction_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "trolley_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "opportunity_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "circulation_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "private_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "vehicle_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "pleasant_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "simplify_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "lot_2",
+        "target": "other international cities_2",
+        "value": 1
+    }, {
+        "source": "make_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "interaction_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "trolley_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "opportunity_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "circulation_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "private_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "vehicle_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "pleasant_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "simplify_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "lot_3",
+        "target": "several dog fights_3",
+        "value": 1
+    }, {
+        "source": "make_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "interaction_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "trolley_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "opportunity_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "circulation_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "private_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "vehicle_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "pleasant_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "simplify_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "lot_8",
+        "target": "awkward crossings_8",
+        "value": 1
+    }, {
+        "source": "make_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "interaction_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "trolley_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "opportunity_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "circulation_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "private_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "vehicle_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "pleasant_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "simplify_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "lot_9",
+        "target": "pedestrians_9",
+        "value": 1
+    }, {
+        "source": "make_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "interaction_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "trolley_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "opportunity_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "circulation_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "private_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "vehicle_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "pleasant_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "simplify_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "lot_10",
+        "target": "downtown_10",
+        "value": 1
+    }, {
+        "source": "make_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "interaction_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "trolley_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "opportunity_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "circulation_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "private_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "vehicle_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "pleasant_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "simplify_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "lot_11",
+        "target": "building bridges_11",
+        "value": 1
+    }, {
+        "source": "make_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "interaction_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "trolley_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "opportunity_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "circulation_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "private_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "vehicle_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "pleasant_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "simplify_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "lot_13",
+        "target": "private vehicle motor traffic_13",
+        "value": 1
+    }, {
+        "source": "make_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "interaction_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "trolley_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "opportunity_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "circulation_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "private_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "vehicle_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "pleasant_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "simplify_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "lot_15",
+        "target": "human interactions_15",
+        "value": 1
+    }, {
+        "source": "make_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "interaction_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "trolley_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "opportunity_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "circulation_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "private_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "vehicle_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "pleasant_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "simplify_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "lot_16",
+        "target": "motor traffic downtown_16",
+        "value": 1
+    }, {
+        "source": "make_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "interaction_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "trolley_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "opportunity_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "circulation_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "private_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "vehicle_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "pleasant_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "simplify_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "lot_20",
+        "target": "vehicle directions_20",
+        "value": 1
+    }, {
+        "source": "make_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "interaction_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "trolley_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "opportunity_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "circulation_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "private_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "vehicle_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "pleasant_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "simplify_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "lot_21",
+        "target": "barrio logan_21",
+        "value": 1
+    }, {
+        "source": "make_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "interaction_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "trolley_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "opportunity_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "circulation_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "private_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "vehicle_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "pleasant_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "simplify_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "lot_22",
+        "target": "auto traffic_22",
+        "value": 1
+    }, {
+        "source": "make_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "interaction_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "trolley_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "opportunity_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "circulation_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "private_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "vehicle_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "pleasant_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "simplify_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "lot_23",
+        "target": " traffic circles_23",
+        "value": 1
+    }, {
+        "source": "make_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "interaction_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "trolley_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "opportunity_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "circulation_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "private_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "vehicle_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "pleasant_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "simplify_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }, {
+        "source": "lot_27",
+        "target": "iconic public art_27",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "more people_0",
+        "group": 0,
+        "label": "more people"
+    }, {
+        "id": "make_0",
+        "group": 0,
+        "label": "make"
+    }, {
+        "id": "mobility_0",
+        "group": 0,
+        "label": "mobility"
+    }, {
+        "id": "public_0",
+        "group": 0,
+        "label": "public"
+    }, {
+        "id": "safe_0",
+        "group": 0,
+        "label": "safe"
+    }, {
+        "id": "security_0",
+        "group": 0,
+        "label": "security"
+    }, {
+        "id": "create_0",
+        "group": 0,
+        "label": "create"
+    }, {
+        "id": "space_0",
+        "group": 0,
+        "label": "space"
+    }, {
+        "id": "run_0",
+        "group": 0,
+        "label": "run"
+    }, {
+        "id": "feedback_0",
+        "group": 0,
+        "label": "feedback"
+    }, {
+        "id": "text_0",
+        "group": 0,
+        "label": "text"
+    }, {
+        "id": "drawing crowds_1",
+        "group": 1,
+        "label": "drawing crowds"
+    }, {
+        "id": "make_1",
+        "group": 1,
+        "label": "make"
+    }, {
+        "id": "mobility_1",
+        "group": 1,
+        "label": "mobility"
+    }, {
+        "id": "public_1",
+        "group": 1,
+        "label": "public"
+    }, {
+        "id": "safe_1",
+        "group": 1,
+        "label": "safe"
+    }, {
+        "id": "security_1",
+        "group": 1,
+        "label": "security"
+    }, {
+        "id": "create_1",
+        "group": 1,
+        "label": "create"
+    }, {
+        "id": "space_1",
+        "group": 1,
+        "label": "space"
+    }, {
+        "id": "run_1",
+        "group": 1,
+        "label": "run"
+    }, {
+        "id": "feedback_1",
+        "group": 1,
+        "label": "feedback"
+    }, {
+        "id": "text_1",
+        "group": 1,
+        "label": "text"
+    }, {
+        "id": "san diego_2",
+        "group": 2,
+        "label": "san diego"
+    }, {
+        "id": "make_2",
+        "group": 2,
+        "label": "make"
+    }, {
+        "id": "mobility_2",
+        "group": 2,
+        "label": "mobility"
+    }, {
+        "id": "public_2",
+        "group": 2,
+        "label": "public"
+    }, {
+        "id": "safe_2",
+        "group": 2,
+        "label": "safe"
+    }, {
+        "id": "security_2",
+        "group": 2,
+        "label": "security"
+    }, {
+        "id": "create_2",
+        "group": 2,
+        "label": "create"
+    }, {
+        "id": "space_2",
+        "group": 2,
+        "label": "space"
+    }, {
+        "id": "run_2",
+        "group": 2,
+        "label": "run"
+    }, {
+        "id": "feedback_2",
+        "group": 2,
+        "label": "feedback"
+    }, {
+        "id": "text_2",
+        "group": 2,
+        "label": "text"
+    }, {
+        "id": "high water table_3",
+        "group": 3,
+        "label": "high water table"
+    }, {
+        "id": "make_3",
+        "group": 3,
+        "label": "make"
+    }, {
+        "id": "mobility_3",
+        "group": 3,
+        "label": "mobility"
+    }, {
+        "id": "public_3",
+        "group": 3,
+        "label": "public"
+    }, {
+        "id": "safe_3",
+        "group": 3,
+        "label": "safe"
+    }, {
+        "id": "security_3",
+        "group": 3,
+        "label": "security"
+    }, {
+        "id": "create_3",
+        "group": 3,
+        "label": "create"
+    }, {
+        "id": "space_3",
+        "group": 3,
+        "label": "space"
+    }, {
+        "id": "run_3",
+        "group": 3,
+        "label": "run"
+    }, {
+        "id": "feedback_3",
+        "group": 3,
+        "label": "feedback"
+    }, {
+        "id": "text_3",
+        "group": 3,
+        "label": "text"
+    }, {
+        "id": "life_4",
+        "group": 4,
+        "label": "life"
+    }, {
+        "id": "make_4",
+        "group": 4,
+        "label": "make"
+    }, {
+        "id": "mobility_4",
+        "group": 4,
+        "label": "mobility"
+    }, {
+        "id": "public_4",
+        "group": 4,
+        "label": "public"
+    }, {
+        "id": "safe_4",
+        "group": 4,
+        "label": "safe"
+    }, {
+        "id": "security_4",
+        "group": 4,
+        "label": "security"
+    }, {
+        "id": "create_4",
+        "group": 4,
+        "label": "create"
+    }, {
+        "id": "space_4",
+        "group": 4,
+        "label": "space"
+    }, {
+        "id": "run_4",
+        "group": 4,
+        "label": "run"
+    }, {
+        "id": "feedback_4",
+        "group": 4,
+        "label": "feedback"
+    }, {
+        "id": "text_4",
+        "group": 4,
+        "label": "text"
+    }, {
+        "id": " neutral solution_5",
+        "group": 5,
+        "label": " neutral solution"
+    }, {
+        "id": "make_5",
+        "group": 5,
+        "label": "make"
+    }, {
+        "id": "mobility_5",
+        "group": 5,
+        "label": "mobility"
+    }, {
+        "id": "public_5",
+        "group": 5,
+        "label": "public"
+    }, {
+        "id": "safe_5",
+        "group": 5,
+        "label": "safe"
+    }, {
+        "id": "security_5",
+        "group": 5,
+        "label": "security"
+    }, {
+        "id": "create_5",
+        "group": 5,
+        "label": "create"
+    }, {
+        "id": "space_5",
+        "group": 5,
+        "label": "space"
+    }, {
+        "id": "run_5",
+        "group": 5,
+        "label": "run"
+    }, {
+        "id": "feedback_5",
+        "group": 5,
+        "label": "feedback"
+    }, {
+        "id": "text_5",
+        "group": 5,
+        "label": "text"
+    }],
+    "links": [{
+        "source": "make_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "mobility_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "public_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "safe_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "security_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "create_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "space_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "run_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "feedback_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "text_0",
+        "target": "more people_0",
+        "value": 1
+    }, {
+        "source": "make_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "mobility_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "public_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "safe_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "security_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "create_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "space_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "run_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "feedback_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "text_1",
+        "target": "drawing crowds_1",
+        "value": 1
+    }, {
+        "source": "make_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "mobility_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "public_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "safe_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "security_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "create_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "space_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "run_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "feedback_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "text_2",
+        "target": "san diego_2",
+        "value": 1
+    }, {
+        "source": "make_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "mobility_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "public_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "safe_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "security_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "create_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "space_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "run_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "feedback_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "text_3",
+        "target": "high water table_3",
+        "value": 1
+    }, {
+        "source": "make_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "mobility_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "public_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "safe_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "security_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "create_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "space_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "run_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "feedback_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "text_4",
+        "target": "life_4",
+        "value": 1
+    }, {
+        "source": "make_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "mobility_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "public_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "safe_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "security_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "create_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "space_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "run_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "feedback_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }, {
+        "source": "text_5",
+        "target": " neutral solution_5",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "mere novelties kinetic sculpture_0",
+        "group": 0,
+        "label": "mere novelties kinetic sculpture"
+    }, {
+        "id": "monument_0",
+        "group": 0,
+        "label": "monument"
+    }, {
+        "id": "make_0",
+        "group": 0,
+        "label": "make"
+    }, {
+        "id": "large_0",
+        "group": 0,
+        "label": "large"
+    }, {
+        "id": "people_0",
+        "group": 0,
+        "label": "people"
+    }, {
+        "id": "neighbor_0",
+        "group": 0,
+        "label": "neighbor"
+    }, {
+        "id": "success_0",
+        "group": 0,
+        "label": "success"
+    }, {
+        "id": "novelty_0",
+        "group": 0,
+        "label": "novelty"
+    }, {
+        "id": "event_0",
+        "group": 0,
+        "label": "event"
+    }, {
+        "id": "long_0",
+        "group": 0,
+        "label": "long"
+    }, {
+        "id": "piece_0",
+        "group": 0,
+        "label": "piece"
+    }, {
+        "id": "barrio logan_1",
+        "group": 1,
+        "label": "barrio logan"
+    }, {
+        "id": "monument_1",
+        "group": 1,
+        "label": "monument"
+    }, {
+        "id": "make_1",
+        "group": 1,
+        "label": "make"
+    }, {
+        "id": "large_1",
+        "group": 1,
+        "label": "large"
+    }, {
+        "id": "people_1",
+        "group": 1,
+        "label": "people"
+    }, {
+        "id": "neighbor_1",
+        "group": 1,
+        "label": "neighbor"
+    }, {
+        "id": "success_1",
+        "group": 1,
+        "label": "success"
+    }, {
+        "id": "novelty_1",
+        "group": 1,
+        "label": "novelty"
+    }, {
+        "id": "event_1",
+        "group": 1,
+        "label": "event"
+    }, {
+        "id": "long_1",
+        "group": 1,
+        "label": "long"
+    }, {
+        "id": "piece_1",
+        "group": 1,
+        "label": "piece"
+    }, {
+        "id": "east village_2",
+        "group": 2,
+        "label": "east village"
+    }, {
+        "id": "monument_2",
+        "group": 2,
+        "label": "monument"
+    }, {
+        "id": "make_2",
+        "group": 2,
+        "label": "make"
+    }, {
+        "id": "large_2",
+        "group": 2,
+        "label": "large"
+    }, {
+        "id": "people_2",
+        "group": 2,
+        "label": "people"
+    }, {
+        "id": "neighbor_2",
+        "group": 2,
+        "label": "neighbor"
+    }, {
+        "id": "success_2",
+        "group": 2,
+        "label": "success"
+    }, {
+        "id": "novelty_2",
+        "group": 2,
+        "label": "novelty"
+    }, {
+        "id": "event_2",
+        "group": 2,
+        "label": "event"
+    }, {
+        "id": "long_2",
+        "group": 2,
+        "label": "long"
+    }, {
+        "id": "piece_2",
+        "group": 2,
+        "label": "piece"
+    }, {
+        "id": "private motor traffic_3",
+        "group": 3,
+        "label": "private motor traffic"
+    }, {
+        "id": "monument_3",
+        "group": 3,
+        "label": "monument"
+    }, {
+        "id": "make_3",
+        "group": 3,
+        "label": "make"
+    }, {
+        "id": "large_3",
+        "group": 3,
+        "label": "large"
+    }, {
+        "id": "people_3",
+        "group": 3,
+        "label": "people"
+    }, {
+        "id": "neighbor_3",
+        "group": 3,
+        "label": "neighbor"
+    }, {
+        "id": "success_3",
+        "group": 3,
+        "label": "success"
+    }, {
+        "id": "novelty_3",
+        "group": 3,
+        "label": "novelty"
+    }, {
+        "id": "event_3",
+        "group": 3,
+        "label": "event"
+    }, {
+        "id": "long_3",
+        "group": 3,
+        "label": "long"
+    }, {
+        "id": "piece_3",
+        "group": 3,
+        "label": "piece"
+    }, {
+        "id": "most public art_4",
+        "group": 4,
+        "label": "most public art"
+    }, {
+        "id": "monument_4",
+        "group": 4,
+        "label": "monument"
+    }, {
+        "id": "make_4",
+        "group": 4,
+        "label": "make"
+    }, {
+        "id": "large_4",
+        "group": 4,
+        "label": "large"
+    }, {
+        "id": "people_4",
+        "group": 4,
+        "label": "people"
+    }, {
+        "id": "neighbor_4",
+        "group": 4,
+        "label": "neighbor"
+    }, {
+        "id": "success_4",
+        "group": 4,
+        "label": "success"
+    }, {
+        "id": "novelty_4",
+        "group": 4,
+        "label": "novelty"
+    }, {
+        "id": "event_4",
+        "group": 4,
+        "label": "event"
+    }, {
+        "id": "long_4",
+        "group": 4,
+        "label": "long"
+    }, {
+        "id": "piece_4",
+        "group": 4,
+        "label": "piece"
+    }, {
+        "id": "art_5",
+        "group": 5,
+        "label": "art"
+    }, {
+        "id": "monument_5",
+        "group": 5,
+        "label": "monument"
+    }, {
+        "id": "make_5",
+        "group": 5,
+        "label": "make"
+    }, {
+        "id": "large_5",
+        "group": 5,
+        "label": "large"
+    }, {
+        "id": "people_5",
+        "group": 5,
+        "label": "people"
+    }, {
+        "id": "neighbor_5",
+        "group": 5,
+        "label": "neighbor"
+    }, {
+        "id": "success_5",
+        "group": 5,
+        "label": "success"
+    }, {
+        "id": "novelty_5",
+        "group": 5,
+        "label": "novelty"
+    }, {
+        "id": "event_5",
+        "group": 5,
+        "label": "event"
+    }, {
+        "id": "long_5",
+        "group": 5,
+        "label": "long"
+    }, {
+        "id": "piece_5",
+        "group": 5,
+        "label": "piece"
+    }],
+    "links": [{
+        "source": "monument_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "make_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "large_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "people_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "neighbor_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "success_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "novelty_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "event_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "long_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "piece_0",
+        "target": "mere novelties kinetic sculpture_0",
+        "value": 1
+    }, {
+        "source": "monument_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "make_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "large_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "people_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "neighbor_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "success_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "novelty_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "event_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "long_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "piece_1",
+        "target": "barrio logan_1",
+        "value": 1
+    }, {
+        "source": "monument_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "make_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "large_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "people_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "neighbor_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "success_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "novelty_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "event_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "long_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "piece_2",
+        "target": "east village_2",
+        "value": 1
+    }, {
+        "source": "monument_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "make_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "large_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "people_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "neighbor_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "success_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "novelty_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "event_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "long_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "piece_3",
+        "target": "private motor traffic_3",
+        "value": 1
+    }, {
+        "source": "monument_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "make_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "large_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "people_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "neighbor_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "success_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "novelty_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "event_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "long_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "piece_4",
+        "target": "most public art_4",
+        "value": 1
+    }, {
+        "source": "monument_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "make_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "large_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "people_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "neighbor_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "success_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "novelty_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "event_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "long_5",
+        "target": "art_5",
+        "value": 1
+    }, {
+        "source": "piece_5",
+        "target": "art_5",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "private motor traffic_0",
+        "group": 0,
+        "label": "private motor traffic"
+    }, {
+        "id": "area_0",
+        "group": 0,
+        "label": "area"
+    }, {
+        "id": "feel_0",
+        "group": 0,
+        "label": "feel"
+    }, {
+        "id": "put_0",
+        "group": 0,
+        "label": "put"
+    }, {
+        "id": "terrify_0",
+        "group": 0,
+        "label": "terrify"
+    }, {
+        "id": "socialize_0",
+        "group": 0,
+        "label": "socialize"
+    }, {
+        "id": "true_0",
+        "group": 0,
+        "label": "true"
+    }, {
+        "id": "relax_0",
+        "group": 0,
+        "label": "relax"
+    }, {
+        "id": "building_0",
+        "group": 0,
+        "label": "building"
+    }, {
+        "id": "crowded_0",
+        "group": 0,
+        "label": "crowded"
+    }, {
+        "id": "width_0",
+        "group": 0,
+        "label": "width"
+    }, {
+        "id": "many people_1",
+        "group": 1,
+        "label": "many people"
+    }, {
+        "id": "area_1",
+        "group": 1,
+        "label": "area"
+    }, {
+        "id": "feel_1",
+        "group": 1,
+        "label": "feel"
+    }, {
+        "id": "put_1",
+        "group": 1,
+        "label": "put"
+    }, {
+        "id": "terrify_1",
+        "group": 1,
+        "label": "terrify"
+    }, {
+        "id": "socialize_1",
+        "group": 1,
+        "label": "socialize"
+    }, {
+        "id": "true_1",
+        "group": 1,
+        "label": "true"
+    }, {
+        "id": "relax_1",
+        "group": 1,
+        "label": "relax"
+    }, {
+        "id": "building_1",
+        "group": 1,
+        "label": "building"
+    }, {
+        "id": "crowded_1",
+        "group": 1,
+        "label": "crowded"
+    }, {
+        "id": "width_1",
+        "group": 1,
+        "label": "width"
+    }, {
+        "id": "dogs_2",
+        "group": 2,
+        "label": "dogs"
+    }, {
+        "id": "area_2",
+        "group": 2,
+        "label": "area"
+    }, {
+        "id": "feel_2",
+        "group": 2,
+        "label": "feel"
+    }, {
+        "id": "put_2",
+        "group": 2,
+        "label": "put"
+    }, {
+        "id": "terrify_2",
+        "group": 2,
+        "label": "terrify"
+    }, {
+        "id": "socialize_2",
+        "group": 2,
+        "label": "socialize"
+    }, {
+        "id": "true_2",
+        "group": 2,
+        "label": "true"
+    }, {
+        "id": "relax_2",
+        "group": 2,
+        "label": "relax"
+    }, {
+        "id": "building_2",
+        "group": 2,
+        "label": "building"
+    }, {
+        "id": "crowded_2",
+        "group": 2,
+        "label": "crowded"
+    }, {
+        "id": "width_2",
+        "group": 2,
+        "label": "width"
+    }, {
+        "id": "homeless attractive nuisance_3",
+        "group": 3,
+        "label": "homeless attractive nuisance"
+    }, {
+        "id": "area_3",
+        "group": 3,
+        "label": "area"
+    }, {
+        "id": "feel_3",
+        "group": 3,
+        "label": "feel"
+    }, {
+        "id": "put_3",
+        "group": 3,
+        "label": "put"
+    }, {
+        "id": "terrify_3",
+        "group": 3,
+        "label": "terrify"
+    }, {
+        "id": "socialize_3",
+        "group": 3,
+        "label": "socialize"
+    }, {
+        "id": "true_3",
+        "group": 3,
+        "label": "true"
+    }, {
+        "id": "relax_3",
+        "group": 3,
+        "label": "relax"
+    }, {
+        "id": "building_3",
+        "group": 3,
+        "label": "building"
+    }, {
+        "id": "crowded_3",
+        "group": 3,
+        "label": "crowded"
+    }, {
+        "id": "width_3",
+        "group": 3,
+        "label": "width"
+    }],
+    "links": [{
+        "source": "area_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "feel_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "put_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "terrify_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "socialize_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "true_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "relax_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "building_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "crowded_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "width_0",
+        "target": "private motor traffic_0",
+        "value": 1
+    }, {
+        "source": "area_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "feel_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "put_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "terrify_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "socialize_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "true_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "relax_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "building_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "crowded_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "width_1",
+        "target": "many people_1",
+        "value": 1
+    }, {
+        "source": "area_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "feel_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "put_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "terrify_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "socialize_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "true_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "relax_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "building_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "crowded_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "width_2",
+        "target": "dogs_2",
+        "value": 1
+    }, {
+        "source": "area_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "feel_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "put_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "terrify_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "socialize_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "true_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "relax_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "building_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "crowded_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }, {
+        "source": "width_3",
+        "target": "homeless attractive nuisance_3",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "americas filthiest city_0",
+        "group": 0,
+        "label": "americas filthiest city"
+    }, {
+        "id": "safe_0",
+        "group": 0,
+        "label": "safe"
+    }, {
+        "id": "destination_0",
+        "group": 0,
+        "label": "destination"
+    }, {
+        "id": "activity_0",
+        "group": 0,
+        "label": "activity"
+    }, {
+        "id": "encourage_0",
+        "group": 0,
+        "label": "encourage"
+    }, {
+        "id": "vendor_0",
+        "group": 0,
+        "label": "vendor"
+    }, {
+        "id": "proximity_0",
+        "group": 0,
+        "label": "proximity"
+    }, {
+        "id": "make_0",
+        "group": 0,
+        "label": "make"
+    }, {
+        "id": "smelly_0",
+        "group": 0,
+        "label": "smelly"
+    }, {
+        "id": "traffic_0",
+        "group": 0,
+        "label": "traffic"
+    }, {
+        "id": "eliminate_0",
+        "group": 0,
+        "label": "eliminate"
+    }, {
+        "id": "horton plaza park_1",
+        "group": 1,
+        "label": "horton plaza park"
+    }, {
+        "id": "safe_1",
+        "group": 1,
+        "label": "safe"
+    }, {
+        "id": "destination_1",
+        "group": 1,
+        "label": "destination"
+    }, {
+        "id": "activity_1",
+        "group": 1,
+        "label": "activity"
+    }, {
+        "id": "encourage_1",
+        "group": 1,
+        "label": "encourage"
+    }, {
+        "id": "vendor_1",
+        "group": 1,
+        "label": "vendor"
+    }, {
+        "id": "proximity_1",
+        "group": 1,
+        "label": "proximity"
+    }, {
+        "id": "make_1",
+        "group": 1,
+        "label": "make"
+    }, {
+        "id": "smelly_1",
+        "group": 1,
+        "label": "smelly"
+    }, {
+        "id": "traffic_1",
+        "group": 1,
+        "label": "traffic"
+    }, {
+        "id": "eliminate_1",
+        "group": 1,
+        "label": "eliminate"
+    }, {
+        "id": "public transit_2",
+        "group": 2,
+        "label": "public transit"
+    }, {
+        "id": "safe_2",
+        "group": 2,
+        "label": "safe"
+    }, {
+        "id": "destination_2",
+        "group": 2,
+        "label": "destination"
+    }, {
+        "id": "activity_2",
+        "group": 2,
+        "label": "activity"
+    }, {
+        "id": "encourage_2",
+        "group": 2,
+        "label": "encourage"
+    }, {
+        "id": "vendor_2",
+        "group": 2,
+        "label": "vendor"
+    }, {
+        "id": "proximity_2",
+        "group": 2,
+        "label": "proximity"
+    }, {
+        "id": "make_2",
+        "group": 2,
+        "label": "make"
+    }, {
+        "id": "smelly_2",
+        "group": 2,
+        "label": "smelly"
+    }, {
+        "id": "traffic_2",
+        "group": 2,
+        "label": "traffic"
+    }, {
+        "id": "eliminate_2",
+        "group": 2,
+        "label": "eliminate"
+    }, {
+        "id": "auto traffic_3",
+        "group": 3,
+        "label": "auto traffic"
+    }, {
+        "id": "safe_3",
+        "group": 3,
+        "label": "safe"
+    }, {
+        "id": "destination_3",
+        "group": 3,
+        "label": "destination"
+    }, {
+        "id": "activity_3",
+        "group": 3,
+        "label": "activity"
+    }, {
+        "id": "encourage_3",
+        "group": 3,
+        "label": "encourage"
+    }, {
+        "id": "vendor_3",
+        "group": 3,
+        "label": "vendor"
+    }, {
+        "id": "proximity_3",
+        "group": 3,
+        "label": "proximity"
+    }, {
+        "id": "make_3",
+        "group": 3,
+        "label": "make"
+    }, {
+        "id": "smelly_3",
+        "group": 3,
+        "label": "smelly"
+    }, {
+        "id": "traffic_3",
+        "group": 3,
+        "label": "traffic"
+    }, {
+        "id": "eliminate_3",
+        "group": 3,
+        "label": "eliminate"
+    }],
+    "links": [{
+        "source": "safe_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "destination_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "activity_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "encourage_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "vendor_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "proximity_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "make_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "smelly_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "traffic_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "eliminate_0",
+        "target": "americas filthiest city_0",
+        "value": 1
+    }, {
+        "source": "safe_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "destination_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "activity_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "encourage_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "vendor_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "proximity_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "make_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "smelly_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "traffic_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "eliminate_1",
+        "target": "horton plaza park_1",
+        "value": 1
+    }, {
+        "source": "safe_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "destination_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "activity_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "encourage_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "vendor_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "proximity_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "make_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "smelly_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "traffic_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "eliminate_2",
+        "target": "public transit_2",
+        "value": 1
+    }, {
+        "source": "safe_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "destination_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "activity_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "encourage_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "vendor_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "proximity_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "make_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "smelly_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "traffic_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }, {
+        "source": "eliminate_3",
+        "target": "auto traffic_3",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "previous answer_0",
+        "group": 0,
+        "label": "previous answer"
+    }, {
+        "id": "pedestrian_0",
+        "group": 0,
+        "label": "pedestrian"
+    }, {
+        "id": "community_0",
+        "group": 0,
+        "label": "community"
+    }, {
+        "id": "create_0",
+        "group": 0,
+        "label": "create"
+    }, {
+        "id": "paint_0",
+        "group": 0,
+        "label": "paint"
+    }, {
+        "id": "bring_0",
+        "group": 0,
+        "label": "bring"
+    }, {
+        "id": "healthy_0",
+        "group": 0,
+        "label": "healthy"
+    }, {
+        "id": "receive_0",
+        "group": 0,
+        "label": "receive"
+    }, {
+        "id": "type_0",
+        "group": 0,
+        "label": "type"
+    }, {
+        "id": "commercial_0",
+        "group": 0,
+        "label": "commercial"
+    }, {
+        "id": "provide_0",
+        "group": 0,
+        "label": "provide"
+    }, {
+        "id": "tiny mom_1",
+        "group": 1,
+        "label": "tiny mom"
+    }, {
+        "id": "pedestrian_1",
+        "group": 1,
+        "label": "pedestrian"
+    }, {
+        "id": "community_1",
+        "group": 1,
+        "label": "community"
+    }, {
+        "id": "create_1",
+        "group": 1,
+        "label": "create"
+    }, {
+        "id": "paint_1",
+        "group": 1,
+        "label": "paint"
+    }, {
+        "id": "bring_1",
+        "group": 1,
+        "label": "bring"
+    }, {
+        "id": "healthy_1",
+        "group": 1,
+        "label": "healthy"
+    }, {
+        "id": "receive_1",
+        "group": 1,
+        "label": "receive"
+    }, {
+        "id": "type_1",
+        "group": 1,
+        "label": "type"
+    }, {
+        "id": "commercial_1",
+        "group": 1,
+        "label": "commercial"
+    }, {
+        "id": "provide_1",
+        "group": 1,
+        "label": "provide"
+    }, {
+        "id": "pet friendly destinations_2",
+        "group": 2,
+        "label": "pet friendly destinations"
+    }, {
+        "id": "pedestrian_2",
+        "group": 2,
+        "label": "pedestrian"
+    }, {
+        "id": "community_2",
+        "group": 2,
+        "label": "community"
+    }, {
+        "id": "create_2",
+        "group": 2,
+        "label": "create"
+    }, {
+        "id": "paint_2",
+        "group": 2,
+        "label": "paint"
+    }, {
+        "id": "bring_2",
+        "group": 2,
+        "label": "bring"
+    }, {
+        "id": "healthy_2",
+        "group": 2,
+        "label": "healthy"
+    }, {
+        "id": "receive_2",
+        "group": 2,
+        "label": "receive"
+    }, {
+        "id": "type_2",
+        "group": 2,
+        "label": "type"
+    }, {
+        "id": "commercial_2",
+        "group": 2,
+        "label": "commercial"
+    }, {
+        "id": "provide_2",
+        "group": 2,
+        "label": "provide"
+    }, {
+        "id": "petco park games_3",
+        "group": 3,
+        "label": "petco park games"
+    }, {
+        "id": "pedestrian_3",
+        "group": 3,
+        "label": "pedestrian"
+    }, {
+        "id": "community_3",
+        "group": 3,
+        "label": "community"
+    }, {
+        "id": "create_3",
+        "group": 3,
+        "label": "create"
+    }, {
+        "id": "paint_3",
+        "group": 3,
+        "label": "paint"
+    }, {
+        "id": "bring_3",
+        "group": 3,
+        "label": "bring"
+    }, {
+        "id": "healthy_3",
+        "group": 3,
+        "label": "healthy"
+    }, {
+        "id": "receive_3",
+        "group": 3,
+        "label": "receive"
+    }, {
+        "id": "type_3",
+        "group": 3,
+        "label": "type"
+    }, {
+        "id": "commercial_3",
+        "group": 3,
+        "label": "commercial"
+    }, {
+        "id": "provide_3",
+        "group": 3,
+        "label": "provide"
+    }, {
+        "id": "car services_4",
+        "group": 4,
+        "label": "car services"
+    }, {
+        "id": "pedestrian_4",
+        "group": 4,
+        "label": "pedestrian"
+    }, {
+        "id": "community_4",
+        "group": 4,
+        "label": "community"
+    }, {
+        "id": "create_4",
+        "group": 4,
+        "label": "create"
+    }, {
+        "id": "paint_4",
+        "group": 4,
+        "label": "paint"
+    }, {
+        "id": "bring_4",
+        "group": 4,
+        "label": "bring"
+    }, {
+        "id": "healthy_4",
+        "group": 4,
+        "label": "healthy"
+    }, {
+        "id": "receive_4",
+        "group": 4,
+        "label": "receive"
+    }, {
+        "id": "type_4",
+        "group": 4,
+        "label": "type"
+    }, {
+        "id": "commercial_4",
+        "group": 4,
+        "label": "commercial"
+    }, {
+        "id": "provide_4",
+        "group": 4,
+        "label": "provide"
+    }, {
+        "id": "future projects_5",
+        "group": 5,
+        "label": "future projects"
+    }, {
+        "id": "pedestrian_5",
+        "group": 5,
+        "label": "pedestrian"
+    }, {
+        "id": "community_5",
+        "group": 5,
+        "label": "community"
+    }, {
+        "id": "create_5",
+        "group": 5,
+        "label": "create"
+    }, {
+        "id": "paint_5",
+        "group": 5,
+        "label": "paint"
+    }, {
+        "id": "bring_5",
+        "group": 5,
+        "label": "bring"
+    }, {
+        "id": "healthy_5",
+        "group": 5,
+        "label": "healthy"
+    }, {
+        "id": "receive_5",
+        "group": 5,
+        "label": "receive"
+    }, {
+        "id": "type_5",
+        "group": 5,
+        "label": "type"
+    }, {
+        "id": "commercial_5",
+        "group": 5,
+        "label": "commercial"
+    }, {
+        "id": "provide_5",
+        "group": 5,
+        "label": "provide"
+    }, {
+        "id": "successful streets_6",
+        "group": 6,
+        "label": "successful streets"
+    }, {
+        "id": "pedestrian_6",
+        "group": 6,
+        "label": "pedestrian"
+    }, {
+        "id": "community_6",
+        "group": 6,
+        "label": "community"
+    }, {
+        "id": "create_6",
+        "group": 6,
+        "label": "create"
+    }, {
+        "id": "paint_6",
+        "group": 6,
+        "label": "paint"
+    }, {
+        "id": "bring_6",
+        "group": 6,
+        "label": "bring"
+    }, {
+        "id": "healthy_6",
+        "group": 6,
+        "label": "healthy"
+    }, {
+        "id": "receive_6",
+        "group": 6,
+        "label": "receive"
+    }, {
+        "id": "type_6",
+        "group": 6,
+        "label": "type"
+    }, {
+        "id": "commercial_6",
+        "group": 6,
+        "label": "commercial"
+    }, {
+        "id": "provide_6",
+        "group": 6,
+        "label": "provide"
+    }, {
+        "id": "the green street_7",
+        "group": 7,
+        "label": "the green street"
+    }, {
+        "id": "pedestrian_7",
+        "group": 7,
+        "label": "pedestrian"
+    }, {
+        "id": "community_7",
+        "group": 7,
+        "label": "community"
+    }, {
+        "id": "create_7",
+        "group": 7,
+        "label": "create"
+    }, {
+        "id": "paint_7",
+        "group": 7,
+        "label": "paint"
+    }, {
+        "id": "bring_7",
+        "group": 7,
+        "label": "bring"
+    }, {
+        "id": "healthy_7",
+        "group": 7,
+        "label": "healthy"
+    }, {
+        "id": "receive_7",
+        "group": 7,
+        "label": "receive"
+    }, {
+        "id": "type_7",
+        "group": 7,
+        "label": "type"
+    }, {
+        "id": "commercial_7",
+        "group": 7,
+        "label": "commercial"
+    }, {
+        "id": "provide_7",
+        "group": 7,
+        "label": "provide"
+    }],
+    "links": [{
+        "source": "pedestrian_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "community_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "create_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "paint_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "bring_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "healthy_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "receive_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "type_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "commercial_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "provide_0",
+        "target": "previous answer_0",
+        "value": 1
+    }, {
+        "source": "pedestrian_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "community_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "create_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "paint_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "bring_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "healthy_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "receive_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "type_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "commercial_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "provide_1",
+        "target": "tiny mom_1",
+        "value": 1
+    }, {
+        "source": "pedestrian_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "community_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "create_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "paint_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "bring_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "healthy_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "receive_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "type_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "commercial_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "provide_2",
+        "target": "pet friendly destinations_2",
+        "value": 1
+    }, {
+        "source": "pedestrian_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "community_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "create_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "paint_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "bring_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "healthy_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "receive_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "type_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "commercial_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "provide_3",
+        "target": "petco park games_3",
+        "value": 1
+    }, {
+        "source": "pedestrian_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "community_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "create_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "paint_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "bring_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "healthy_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "receive_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "type_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "commercial_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "provide_4",
+        "target": "car services_4",
+        "value": 1
+    }, {
+        "source": "pedestrian_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "community_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "create_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "paint_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "bring_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "healthy_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "receive_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "type_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "commercial_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "provide_5",
+        "target": "future projects_5",
+        "value": 1
+    }, {
+        "source": "pedestrian_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "community_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "create_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "paint_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "bring_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "healthy_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "receive_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "type_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "commercial_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "provide_6",
+        "target": "successful streets_6",
+        "value": 1
+    }, {
+        "source": "pedestrian_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "community_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "create_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "paint_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "bring_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "healthy_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "receive_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "type_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "commercial_7",
+        "target": "the green street_7",
+        "value": 1
+    }, {
+        "source": "provide_7",
+        "target": "the green street_7",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "segregated walk spaces_0",
+        "group": 0,
+        "label": "segregated walk spaces"
+    }, {
+        "id": "attract_0",
+        "group": 0,
+        "label": "attract"
+    }, {
+        "id": "avoid_0",
+        "group": 0,
+        "label": "avoid"
+    }, {
+        "id": "climb_0",
+        "group": 0,
+        "label": "climb"
+    }, {
+        "id": "village_0",
+        "group": 0,
+        "label": "village"
+    }, {
+        "id": "entire_0",
+        "group": 0,
+        "label": "entire"
+    }, {
+        "id": "feel_0",
+        "group": 0,
+        "label": "feel"
+    }, {
+        "id": "cost_0",
+        "group": 0,
+        "label": "cost"
+    }, {
+        "id": "safe_0",
+        "group": 0,
+        "label": "safe"
+    }, {
+        "id": "atmosphere_0",
+        "group": 0,
+        "label": "atmosphere"
+    }, {
+        "id": "problem_0",
+        "group": 0,
+        "label": "problem"
+    }, {
+        "id": "more information_1",
+        "group": 1,
+        "label": "more information"
+    }, {
+        "id": "attract_1",
+        "group": 1,
+        "label": "attract"
+    }, {
+        "id": "avoid_1",
+        "group": 1,
+        "label": "avoid"
+    }, {
+        "id": "climb_1",
+        "group": 1,
+        "label": "climb"
+    }, {
+        "id": "village_1",
+        "group": 1,
+        "label": "village"
+    }, {
+        "id": "entire_1",
+        "group": 1,
+        "label": "entire"
+    }, {
+        "id": "feel_1",
+        "group": 1,
+        "label": "feel"
+    }, {
+        "id": "cost_1",
+        "group": 1,
+        "label": "cost"
+    }, {
+        "id": "safe_1",
+        "group": 1,
+        "label": "safe"
+    }, {
+        "id": "atmosphere_1",
+        "group": 1,
+        "label": "atmosphere"
+    }, {
+        "id": "problem_1",
+        "group": 1,
+        "label": "problem"
+    }, {
+        "id": "vehicle traffic_2",
+        "group": 2,
+        "label": "vehicle traffic"
+    }, {
+        "id": "attract_2",
+        "group": 2,
+        "label": "attract"
+    }, {
+        "id": "avoid_2",
+        "group": 2,
+        "label": "avoid"
+    }, {
+        "id": "climb_2",
+        "group": 2,
+        "label": "climb"
+    }, {
+        "id": "village_2",
+        "group": 2,
+        "label": "village"
+    }, {
+        "id": "entire_2",
+        "group": 2,
+        "label": "entire"
+    }, {
+        "id": "feel_2",
+        "group": 2,
+        "label": "feel"
+    }, {
+        "id": "cost_2",
+        "group": 2,
+        "label": "cost"
+    }, {
+        "id": "safe_2",
+        "group": 2,
+        "label": "safe"
+    }, {
+        "id": "atmosphere_2",
+        "group": 2,
+        "label": "atmosphere"
+    }, {
+        "id": "problem_2",
+        "group": 2,
+        "label": "problem"
+    }, {
+        "id": "ada access_3",
+        "group": 3,
+        "label": "ada access"
+    }, {
+        "id": "attract_3",
+        "group": 3,
+        "label": "attract"
+    }, {
+        "id": "avoid_3",
+        "group": 3,
+        "label": "avoid"
+    }, {
+        "id": "climb_3",
+        "group": 3,
+        "label": "climb"
+    }, {
+        "id": "village_3",
+        "group": 3,
+        "label": "village"
+    }, {
+        "id": "entire_3",
+        "group": 3,
+        "label": "entire"
+    }, {
+        "id": "feel_3",
+        "group": 3,
+        "label": "feel"
+    }, {
+        "id": "cost_3",
+        "group": 3,
+        "label": "cost"
+    }, {
+        "id": "safe_3",
+        "group": 3,
+        "label": "safe"
+    }, {
+        "id": "atmosphere_3",
+        "group": 3,
+        "label": "atmosphere"
+    }, {
+        "id": "problem_3",
+        "group": 3,
+        "label": "problem"
+    }],
+    "links": [{
+        "source": "attract_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "avoid_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "climb_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "village_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "entire_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "feel_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "cost_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "safe_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "atmosphere_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "problem_0",
+        "target": "segregated walk spaces_0",
+        "value": 1
+    }, {
+        "source": "attract_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "avoid_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "climb_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "village_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "entire_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "feel_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "cost_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "safe_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "atmosphere_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "problem_1",
+        "target": "more information_1",
+        "value": 1
+    }, {
+        "source": "attract_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "avoid_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "climb_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "village_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "entire_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "feel_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "cost_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "safe_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "atmosphere_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "problem_2",
+        "target": "vehicle traffic_2",
+        "value": 1
+    }, {
+        "source": "attract_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "avoid_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "climb_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "village_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "entire_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "feel_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "cost_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "safe_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "atmosphere_3",
+        "target": "ada access_3",
+        "value": 1
+    }, {
+        "source": "problem_3",
+        "target": "ada access_3",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "these platforms_1",
+        "group": 1,
+        "label": "these platforms"
+    }, {
+        "id": "platform_1",
+        "group": 1,
+        "label": "platform"
+    }],
+    "links": [{
+        "source": "platform_1",
+        "target": "these platforms_1",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "some accidents_0",
+        "group": 0,
+        "label": "some accidents"
+    }, {
+        "id": "suggest_0",
+        "group": 0,
+        "label": "suggest"
+    }, {
+        "id": "love_0",
+        "group": 0,
+        "label": "love"
+    }, {
+        "id": "operation_0",
+        "group": 0,
+        "label": "operation"
+    }, {
+        "id": "discuss_0",
+        "group": 0,
+        "label": "discuss"
+    }, {
+        "id": "accident_0",
+        "group": 0,
+        "label": "accident"
+    }, {
+        "id": "childish_0",
+        "group": 0,
+        "label": "childish"
+    }, {
+        "id": "different_0",
+        "group": 0,
+        "label": "different"
+    }, {
+        "id": "city_0",
+        "group": 0,
+        "label": "city"
+    }, {
+        "id": "body_0",
+        "group": 0,
+        "label": "body"
+    }, {
+        "id": "people_0",
+        "group": 0,
+        "label": "people"
+    }, {
+        "id": "the gondola idea_1",
+        "group": 1,
+        "label": "the gondola idea"
+    }, {
+        "id": "suggest_1",
+        "group": 1,
+        "label": "suggest"
+    }, {
+        "id": "love_1",
+        "group": 1,
+        "label": "love"
+    }, {
+        "id": "operation_1",
+        "group": 1,
+        "label": "operation"
+    }, {
+        "id": "discuss_1",
+        "group": 1,
+        "label": "discuss"
+    }, {
+        "id": "accident_1",
+        "group": 1,
+        "label": "accident"
+    }, {
+        "id": "childish_1",
+        "group": 1,
+        "label": "childish"
+    }, {
+        "id": "different_1",
+        "group": 1,
+        "label": "different"
+    }, {
+        "id": "city_1",
+        "group": 1,
+        "label": "city"
+    }, {
+        "id": "body_1",
+        "group": 1,
+        "label": "body"
+    }, {
+        "id": "people_1",
+        "group": 1,
+        "label": "people"
+    }, {
+        "id": "san diego tourism authority_2",
+        "group": 2,
+        "label": "san diego tourism authority"
+    }, {
+        "id": "suggest_2",
+        "group": 2,
+        "label": "suggest"
+    }, {
+        "id": "love_2",
+        "group": 2,
+        "label": "love"
+    }, {
+        "id": "operation_2",
+        "group": 2,
+        "label": "operation"
+    }, {
+        "id": "discuss_2",
+        "group": 2,
+        "label": "discuss"
+    }, {
+        "id": "accident_2",
+        "group": 2,
+        "label": "accident"
+    }, {
+        "id": "childish_2",
+        "group": 2,
+        "label": "childish"
+    }, {
+        "id": "different_2",
+        "group": 2,
+        "label": "different"
+    }, {
+        "id": "city_2",
+        "group": 2,
+        "label": "city"
+    }, {
+        "id": "body_2",
+        "group": 2,
+        "label": "body"
+    }, {
+        "id": "people_2",
+        "group": 2,
+        "label": "people"
+    }, {
+        "id": "\\sucker\\_3",
+        "group": 3,
+        "label": "\\sucker\\"
+    }, {
+        "id": "suggest_3",
+        "group": 3,
+        "label": "suggest"
+    }, {
+        "id": "love_3",
+        "group": 3,
+        "label": "love"
+    }, {
+        "id": "operation_3",
+        "group": 3,
+        "label": "operation"
+    }, {
+        "id": "discuss_3",
+        "group": 3,
+        "label": "discuss"
+    }, {
+        "id": "accident_3",
+        "group": 3,
+        "label": "accident"
+    }, {
+        "id": "childish_3",
+        "group": 3,
+        "label": "childish"
+    }, {
+        "id": "different_3",
+        "group": 3,
+        "label": "different"
+    }, {
+        "id": "city_3",
+        "group": 3,
+        "label": "city"
+    }, {
+        "id": "body_3",
+        "group": 3,
+        "label": "body"
+    }, {
+        "id": "people_3",
+        "group": 3,
+        "label": "people"
+    }, {
+        "id": "safety_4",
+        "group": 4,
+        "label": "safety"
+    }, {
+        "id": "suggest_4",
+        "group": 4,
+        "label": "suggest"
+    }, {
+        "id": "love_4",
+        "group": 4,
+        "label": "love"
+    }, {
+        "id": "operation_4",
+        "group": 4,
+        "label": "operation"
+    }, {
+        "id": "discuss_4",
+        "group": 4,
+        "label": "discuss"
+    }, {
+        "id": "accident_4",
+        "group": 4,
+        "label": "accident"
+    }, {
+        "id": "childish_4",
+        "group": 4,
+        "label": "childish"
+    }, {
+        "id": "different_4",
+        "group": 4,
+        "label": "different"
+    }, {
+        "id": "city_4",
+        "group": 4,
+        "label": "city"
+    }, {
+        "id": "body_4",
+        "group": 4,
+        "label": "body"
+    }, {
+        "id": "people_4",
+        "group": 4,
+        "label": "people"
+    }, {
+        "id": "a different view_5",
+        "group": 5,
+        "label": "a different view"
+    }, {
+        "id": "suggest_5",
+        "group": 5,
+        "label": "suggest"
+    }, {
+        "id": "love_5",
+        "group": 5,
+        "label": "love"
+    }, {
+        "id": "operation_5",
+        "group": 5,
+        "label": "operation"
+    }, {
+        "id": "discuss_5",
+        "group": 5,
+        "label": "discuss"
+    }, {
+        "id": "accident_5",
+        "group": 5,
+        "label": "accident"
+    }, {
+        "id": "childish_5",
+        "group": 5,
+        "label": "childish"
+    }, {
+        "id": "different_5",
+        "group": 5,
+        "label": "different"
+    }, {
+        "id": "city_5",
+        "group": 5,
+        "label": "city"
+    }, {
+        "id": "body_5",
+        "group": 5,
+        "label": "body"
+    }, {
+        "id": "people_5",
+        "group": 5,
+        "label": "people"
+    }, {
+        "id": "county supervisor roberts office_6",
+        "group": 6,
+        "label": "county supervisor roberts office"
+    }, {
+        "id": "suggest_6",
+        "group": 6,
+        "label": "suggest"
+    }, {
+        "id": "love_6",
+        "group": 6,
+        "label": "love"
+    }, {
+        "id": "operation_6",
+        "group": 6,
+        "label": "operation"
+    }, {
+        "id": "discuss_6",
+        "group": 6,
+        "label": "discuss"
+    }, {
+        "id": "accident_6",
+        "group": 6,
+        "label": "accident"
+    }, {
+        "id": "childish_6",
+        "group": 6,
+        "label": "childish"
+    }, {
+        "id": "different_6",
+        "group": 6,
+        "label": "different"
+    }, {
+        "id": "city_6",
+        "group": 6,
+        "label": "city"
+    }, {
+        "id": "body_6",
+        "group": 6,
+        "label": "body"
+    }, {
+        "id": "people_6",
+        "group": 6,
+        "label": "people"
+    }],
+    "links": [{
+        "source": "suggest_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "love_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "operation_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "discuss_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "accident_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "childish_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "different_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "city_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "body_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "people_0",
+        "target": "some accidents_0",
+        "value": 1
+    }, {
+        "source": "suggest_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "love_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "operation_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "discuss_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "accident_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "childish_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "different_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "city_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "body_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "people_1",
+        "target": "the gondola idea_1",
+        "value": 1
+    }, {
+        "source": "suggest_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "love_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "operation_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "discuss_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "accident_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "childish_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "different_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "city_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "body_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "people_2",
+        "target": "san diego tourism authority_2",
+        "value": 1
+    }, {
+        "source": "suggest_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "love_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "operation_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "discuss_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "accident_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "childish_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "different_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "city_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "body_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "people_3",
+        "target": "\\sucker\\_3",
+        "value": 1
+    }, {
+        "source": "suggest_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "love_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "operation_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "discuss_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "accident_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "childish_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "different_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "city_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "body_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "people_4",
+        "target": "safety_4",
+        "value": 1
+    }, {
+        "source": "suggest_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "love_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "operation_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "discuss_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "accident_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "childish_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "different_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "city_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "body_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "people_5",
+        "target": "a different view_5",
+        "value": 1
+    }, {
+        "source": "suggest_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "love_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "operation_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "discuss_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "accident_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "childish_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "different_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "city_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "body_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }, {
+        "source": "people_6",
+        "target": "county supervisor roberts office_6",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "more information_0",
+        "group": 0,
+        "label": "more information"
+    }, {
+        "id": "hub_0",
+        "group": 0,
+        "label": "hub"
+    }, {
+        "id": "include_0",
+        "group": 0,
+        "label": "include"
+    }, {
+        "id": "feasible_0",
+        "group": 0,
+        "label": "feasible"
+    }, {
+        "id": "street_0",
+        "group": 0,
+        "label": "street"
+    }, {
+        "id": "lot_0",
+        "group": 0,
+        "label": "lot"
+    }, {
+        "id": "people_0",
+        "group": 0,
+        "label": "people"
+    }, {
+        "id": "restaurant_0",
+        "group": 0,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_0",
+        "group": 0,
+        "label": "grocery"
+    }, {
+        "id": "live_0",
+        "group": 0,
+        "label": "live"
+    }, {
+        "id": "study_0",
+        "group": 0,
+        "label": "study"
+    }, {
+        "id": "san diego transit_1",
+        "group": 1,
+        "label": "san diego transit"
+    }, {
+        "id": "hub_1",
+        "group": 1,
+        "label": "hub"
+    }, {
+        "id": "include_1",
+        "group": 1,
+        "label": "include"
+    }, {
+        "id": "feasible_1",
+        "group": 1,
+        "label": "feasible"
+    }, {
+        "id": "street_1",
+        "group": 1,
+        "label": "street"
+    }, {
+        "id": "lot_1",
+        "group": 1,
+        "label": "lot"
+    }, {
+        "id": "people_1",
+        "group": 1,
+        "label": "people"
+    }, {
+        "id": "restaurant_1",
+        "group": 1,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_1",
+        "group": 1,
+        "label": "grocery"
+    }, {
+        "id": "live_1",
+        "group": 1,
+        "label": "live"
+    }, {
+        "id": "study_1",
+        "group": 1,
+        "label": "study"
+    }, {
+        "id": "american culture action_2",
+        "group": 2,
+        "label": "american culture action"
+    }, {
+        "id": "hub_2",
+        "group": 2,
+        "label": "hub"
+    }, {
+        "id": "include_2",
+        "group": 2,
+        "label": "include"
+    }, {
+        "id": "feasible_2",
+        "group": 2,
+        "label": "feasible"
+    }, {
+        "id": "street_2",
+        "group": 2,
+        "label": "street"
+    }, {
+        "id": "lot_2",
+        "group": 2,
+        "label": "lot"
+    }, {
+        "id": "people_2",
+        "group": 2,
+        "label": "people"
+    }, {
+        "id": "restaurant_2",
+        "group": 2,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_2",
+        "group": 2,
+        "label": "grocery"
+    }, {
+        "id": "live_2",
+        "group": 2,
+        "label": "live"
+    }, {
+        "id": "study_2",
+        "group": 2,
+        "label": "study"
+    }, {
+        "id": "business opportunities_3",
+        "group": 3,
+        "label": "business opportunities"
+    }, {
+        "id": "hub_3",
+        "group": 3,
+        "label": "hub"
+    }, {
+        "id": "include_3",
+        "group": 3,
+        "label": "include"
+    }, {
+        "id": "feasible_3",
+        "group": 3,
+        "label": "feasible"
+    }, {
+        "id": "street_3",
+        "group": 3,
+        "label": "street"
+    }, {
+        "id": "lot_3",
+        "group": 3,
+        "label": "lot"
+    }, {
+        "id": "people_3",
+        "group": 3,
+        "label": "people"
+    }, {
+        "id": "restaurant_3",
+        "group": 3,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_3",
+        "group": 3,
+        "label": "grocery"
+    }, {
+        "id": "live_3",
+        "group": 3,
+        "label": "live"
+    }, {
+        "id": "study_3",
+        "group": 3,
+        "label": "study"
+    }, {
+        "id": "neighborhoods_4",
+        "group": 4,
+        "label": "neighborhoods"
+    }, {
+        "id": "hub_4",
+        "group": 4,
+        "label": "hub"
+    }, {
+        "id": "include_4",
+        "group": 4,
+        "label": "include"
+    }, {
+        "id": "feasible_4",
+        "group": 4,
+        "label": "feasible"
+    }, {
+        "id": "street_4",
+        "group": 4,
+        "label": "street"
+    }, {
+        "id": "lot_4",
+        "group": 4,
+        "label": "lot"
+    }, {
+        "id": "people_4",
+        "group": 4,
+        "label": "people"
+    }, {
+        "id": "restaurant_4",
+        "group": 4,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_4",
+        "group": 4,
+        "label": "grocery"
+    }, {
+        "id": "live_4",
+        "group": 4,
+        "label": "live"
+    }, {
+        "id": "study_4",
+        "group": 4,
+        "label": "study"
+    }, {
+        "id": "trolley hub_5",
+        "group": 5,
+        "label": "trolley hub"
+    }, {
+        "id": "hub_5",
+        "group": 5,
+        "label": "hub"
+    }, {
+        "id": "include_5",
+        "group": 5,
+        "label": "include"
+    }, {
+        "id": "feasible_5",
+        "group": 5,
+        "label": "feasible"
+    }, {
+        "id": "street_5",
+        "group": 5,
+        "label": "street"
+    }, {
+        "id": "lot_5",
+        "group": 5,
+        "label": "lot"
+    }, {
+        "id": "people_5",
+        "group": 5,
+        "label": "people"
+    }, {
+        "id": "restaurant_5",
+        "group": 5,
+        "label": "restaurant"
+    }, {
+        "id": "grocery_5",
+        "group": 5,
+        "label": "grocery"
+    }, {
+        "id": "live_5",
+        "group": 5,
+        "label": "live"
+    }, {
+        "id": "study_5",
+        "group": 5,
+        "label": "study"
+    }],
+    "links": [{
+        "source": "hub_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "include_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "feasible_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "street_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "lot_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "people_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "restaurant_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "grocery_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "live_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "study_0",
+        "target": "more information_0",
+        "value": 1
+    }, {
+        "source": "hub_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "include_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "feasible_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "street_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "lot_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "people_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "restaurant_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "grocery_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "live_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "study_1",
+        "target": "san diego transit_1",
+        "value": 1
+    }, {
+        "source": "hub_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "include_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "feasible_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "street_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "lot_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "people_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "restaurant_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "grocery_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "live_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "study_2",
+        "target": "american culture action_2",
+        "value": 1
+    }, {
+        "source": "hub_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "include_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "feasible_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "street_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "lot_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "people_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "restaurant_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "grocery_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "live_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "study_3",
+        "target": "business opportunities_3",
+        "value": 1
+    }, {
+        "source": "hub_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "include_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "feasible_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "street_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "lot_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "people_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "restaurant_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "grocery_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "live_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "study_4",
+        "target": "neighborhoods_4",
+        "value": 1
+    }, {
+        "source": "hub_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "include_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "feasible_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "street_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "lot_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "people_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "restaurant_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "grocery_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "live_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }, {
+        "source": "study_5",
+        "target": "trolley hub_5",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "more visitors_1",
+        "group": 1,
+        "label": "more visitors"
+    }, {
+        "id": "community_1",
+        "group": 1,
+        "label": "community"
+    }, {
+        "id": "sign_1",
+        "group": 1,
+        "label": "sign"
+    }, {
+        "id": "lover_1",
+        "group": 1,
+        "label": "lover"
+    }, {
+        "id": "canine_1",
+        "group": 1,
+        "label": "canine"
+    }, {
+        "id": "provide_1",
+        "group": 1,
+        "label": "provide"
+    }, {
+        "id": "idea_1",
+        "group": 1,
+        "label": "idea"
+    }, {
+        "id": "concrete_1",
+        "group": 1,
+        "label": "concrete"
+    }, {
+        "id": "venture_1",
+        "group": 1,
+        "label": "venture"
+    }, {
+        "id": "place_1",
+        "group": 1,
+        "label": "place"
+    }, {
+        "id": "long_1",
+        "group": 1,
+        "label": "long"
+    }, {
+        "id": "adequate funding_2",
+        "group": 2,
+        "label": "adequate funding"
+    }, {
+        "id": "community_2",
+        "group": 2,
+        "label": "community"
+    }, {
+        "id": "sign_2",
+        "group": 2,
+        "label": "sign"
+    }, {
+        "id": "lover_2",
+        "group": 2,
+        "label": "lover"
+    }, {
+        "id": "canine_2",
+        "group": 2,
+        "label": "canine"
+    }, {
+        "id": "provide_2",
+        "group": 2,
+        "label": "provide"
+    }, {
+        "id": "idea_2",
+        "group": 2,
+        "label": "idea"
+    }, {
+        "id": "concrete_2",
+        "group": 2,
+        "label": "concrete"
+    }, {
+        "id": "venture_2",
+        "group": 2,
+        "label": "venture"
+    }, {
+        "id": "place_2",
+        "group": 2,
+        "label": "place"
+    }, {
+        "id": "long_2",
+        "group": 2,
+        "label": "long"
+    }, {
+        "id": "lose_3",
+        "group": 3,
+        "label": "lose"
+    }, {
+        "id": "community_3",
+        "group": 3,
+        "label": "community"
+    }, {
+        "id": "sign_3",
+        "group": 3,
+        "label": "sign"
+    }, {
+        "id": "lover_3",
+        "group": 3,
+        "label": "lover"
+    }, {
+        "id": "canine_3",
+        "group": 3,
+        "label": "canine"
+    }, {
+        "id": "provide_3",
+        "group": 3,
+        "label": "provide"
+    }, {
+        "id": "idea_3",
+        "group": 3,
+        "label": "idea"
+    }, {
+        "id": "concrete_3",
+        "group": 3,
+        "label": "concrete"
+    }, {
+        "id": "venture_3",
+        "group": 3,
+        "label": "venture"
+    }, {
+        "id": "place_3",
+        "group": 3,
+        "label": "place"
+    }, {
+        "id": "long_3",
+        "group": 3,
+        "label": "long"
+    }],
+    "links": [{
+        "source": "community_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "sign_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "lover_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "canine_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "provide_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "idea_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "concrete_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "venture_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "place_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "long_1",
+        "target": "more visitors_1",
+        "value": 1
+    }, {
+        "source": "community_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "sign_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "lover_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "canine_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "provide_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "idea_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "concrete_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "venture_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "place_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "long_2",
+        "target": "adequate funding_2",
+        "value": 1
+    }, {
+        "source": "community_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "sign_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "lover_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "canine_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "provide_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "idea_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "concrete_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "venture_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "place_3",
+        "target": "lose_3",
+        "value": 1
+    }, {
+        "source": "long_3",
+        "target": "lose_3",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "neutral concept_0",
+        "group": 0,
+        "label": "neutral concept"
+    }, {
+        "id": "future_0",
+        "group": 0,
+        "label": "future"
+    }, {
+        "id": "project_0",
+        "group": 0,
+        "label": "project"
+    }, {
+        "id": "capability_0",
+        "group": 0,
+        "label": "capability"
+    }, {
+        "id": "place_0",
+        "group": 0,
+        "label": "place"
+    }, {
+        "id": "integrate_0",
+        "group": 0,
+        "label": "integrate"
+    }, {
+        "id": "garbage_0",
+        "group": 0,
+        "label": "garbage"
+    }, {
+        "id": "walker_0",
+        "group": 0,
+        "label": "walker"
+    }, {
+        "id": "solution_0",
+        "group": 0,
+        "label": "solution"
+    }, {
+        "id": "factor_0",
+        "group": 0,
+        "label": "factor"
+    }, {
+        "id": "change_0",
+        "group": 0,
+        "label": "change"
+    }, {
+        "id": "ideas_1",
+        "group": 1,
+        "label": "ideas"
+    }, {
+        "id": "future_1",
+        "group": 1,
+        "label": "future"
+    }, {
+        "id": "project_1",
+        "group": 1,
+        "label": "project"
+    }, {
+        "id": "capability_1",
+        "group": 1,
+        "label": "capability"
+    }, {
+        "id": "place_1",
+        "group": 1,
+        "label": "place"
+    }, {
+        "id": "integrate_1",
+        "group": 1,
+        "label": "integrate"
+    }, {
+        "id": "garbage_1",
+        "group": 1,
+        "label": "garbage"
+    }, {
+        "id": "walker_1",
+        "group": 1,
+        "label": "walker"
+    }, {
+        "id": "solution_1",
+        "group": 1,
+        "label": "solution"
+    }, {
+        "id": "factor_1",
+        "group": 1,
+        "label": "factor"
+    }, {
+        "id": "change_1",
+        "group": 1,
+        "label": "change"
+    }, {
+        "id": "an entry level course paper_2",
+        "group": 2,
+        "label": "an entry level course paper"
+    }, {
+        "id": "future_2",
+        "group": 2,
+        "label": "future"
+    }, {
+        "id": "project_2",
+        "group": 2,
+        "label": "project"
+    }, {
+        "id": "capability_2",
+        "group": 2,
+        "label": "capability"
+    }, {
+        "id": "place_2",
+        "group": 2,
+        "label": "place"
+    }, {
+        "id": "integrate_2",
+        "group": 2,
+        "label": "integrate"
+    }, {
+        "id": "garbage_2",
+        "group": 2,
+        "label": "garbage"
+    }, {
+        "id": "walker_2",
+        "group": 2,
+        "label": "walker"
+    }, {
+        "id": "solution_2",
+        "group": 2,
+        "label": "solution"
+    }, {
+        "id": "factor_2",
+        "group": 2,
+        "label": "factor"
+    }, {
+        "id": "change_2",
+        "group": 2,
+        "label": "change"
+    }, {
+        "id": "more context_3",
+        "group": 3,
+        "label": "more context"
+    }, {
+        "id": "future_3",
+        "group": 3,
+        "label": "future"
+    }, {
+        "id": "project_3",
+        "group": 3,
+        "label": "project"
+    }, {
+        "id": "capability_3",
+        "group": 3,
+        "label": "capability"
+    }, {
+        "id": "place_3",
+        "group": 3,
+        "label": "place"
+    }, {
+        "id": "integrate_3",
+        "group": 3,
+        "label": "integrate"
+    }, {
+        "id": "garbage_3",
+        "group": 3,
+        "label": "garbage"
+    }, {
+        "id": "walker_3",
+        "group": 3,
+        "label": "walker"
+    }, {
+        "id": "solution_3",
+        "group": 3,
+        "label": "solution"
+    }, {
+        "id": "factor_3",
+        "group": 3,
+        "label": "factor"
+    }, {
+        "id": "change_3",
+        "group": 3,
+        "label": "change"
+    }],
+    "links": [{
+        "source": "future_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "project_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "capability_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "place_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "integrate_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "garbage_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "walker_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "solution_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "factor_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "change_0",
+        "target": "neutral concept_0",
+        "value": 1
+    }, {
+        "source": "future_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "project_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "capability_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "place_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "integrate_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "garbage_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "walker_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "solution_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "factor_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "change_1",
+        "target": "ideas_1",
+        "value": 1
+    }, {
+        "source": "future_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "project_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "capability_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "place_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "integrate_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "garbage_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "walker_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "solution_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "factor_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "change_2",
+        "target": "an entry level course paper_2",
+        "value": 1
+    }, {
+        "source": "future_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "project_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "capability_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "place_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "integrate_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "garbage_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "walker_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "solution_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "factor_3",
+        "target": "more context_3",
+        "value": 1
+    }, {
+        "source": "change_3",
+        "target": "more context_3",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "perception issues_0",
+        "group": 0,
+        "label": "perception issues"
+    }, {
+        "id": "camp_0",
+        "group": 0,
+        "label": "camp"
+    }, {
+        "id": "agree_0",
+        "group": 0,
+        "label": "agree"
+    }, {
+        "id": "great_0",
+        "group": 0,
+        "label": "great"
+    }, {
+        "id": "library_0",
+        "group": 0,
+        "label": "library"
+    }, {
+        "id": "safety_0",
+        "group": 0,
+        "label": "safety"
+    }, {
+        "id": "elevate_0",
+        "group": 0,
+        "label": "elevate"
+    }, {
+        "id": "encampment_0",
+        "group": 0,
+        "label": "encampment"
+    }, {
+        "id": "place_0",
+        "group": 0,
+        "label": "place"
+    }, {
+        "id": "beautiful_0",
+        "group": 0,
+        "label": "beautiful"
+    }, {
+        "id": "bring_0",
+        "group": 0,
+        "label": "bring"
+    }, {
+        "id": "great thought_1",
+        "group": 1,
+        "label": "great thought"
+    }, {
+        "id": "camp_1",
+        "group": 1,
+        "label": "camp"
+    }, {
+        "id": "agree_1",
+        "group": 1,
+        "label": "agree"
+    }, {
+        "id": "great_1",
+        "group": 1,
+        "label": "great"
+    }, {
+        "id": "library_1",
+        "group": 1,
+        "label": "library"
+    }, {
+        "id": "safety_1",
+        "group": 1,
+        "label": "safety"
+    }, {
+        "id": "elevate_1",
+        "group": 1,
+        "label": "elevate"
+    }, {
+        "id": "encampment_1",
+        "group": 1,
+        "label": "encampment"
+    }, {
+        "id": "place_1",
+        "group": 1,
+        "label": "place"
+    }, {
+        "id": "beautiful_1",
+        "group": 1,
+        "label": "beautiful"
+    }, {
+        "id": "bring_1",
+        "group": 1,
+        "label": "bring"
+    }],
+    "links": [{
+        "source": "camp_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "agree_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "great_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "library_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "safety_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "elevate_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "encampment_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "place_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "beautiful_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "bring_0",
+        "target": "perception issues_0",
+        "value": 1
+    }, {
+        "source": "camp_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "agree_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "great_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "library_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "safety_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "elevate_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "encampment_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "place_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "beautiful_1",
+        "target": "great thought_1",
+        "value": 1
+    }, {
+        "source": "bring_1",
+        "target": "great thought_1",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "high density projects_0",
+        "group": 0,
+        "label": "high density projects"
+    }, {
+        "id": "project_0",
+        "group": 0,
+        "label": "project"
+    }, {
+        "id": "mobility_0",
+        "group": 0,
+        "label": "mobility"
+    }, {
+        "id": "future_0",
+        "group": 0,
+        "label": "future"
+    }, {
+        "id": "success_0",
+        "group": 0,
+        "label": "success"
+    }, {
+        "id": "agree_0",
+        "group": 0,
+        "label": "agree"
+    }, {
+        "id": "necessity_0",
+        "group": 0,
+        "label": "necessity"
+    }, {
+        "id": "decision_0",
+        "group": 0,
+        "label": "decision"
+    }, {
+        "id": "plan_0",
+        "group": 0,
+        "label": "plan"
+    }, {
+        "id": "entire_0",
+        "group": 0,
+        "label": "entire"
+    }, {
+        "id": "density_0",
+        "group": 0,
+        "label": "density"
+    }, {
+        "id": "minimal effect_1",
+        "group": 1,
+        "label": "minimal effect"
+    }, {
+        "id": "project_1",
+        "group": 1,
+        "label": "project"
+    }, {
+        "id": "mobility_1",
+        "group": 1,
+        "label": "mobility"
+    }, {
+        "id": "future_1",
+        "group": 1,
+        "label": "future"
+    }, {
+        "id": "success_1",
+        "group": 1,
+        "label": "success"
+    }, {
+        "id": "agree_1",
+        "group": 1,
+        "label": "agree"
+    }, {
+        "id": "necessity_1",
+        "group": 1,
+        "label": "necessity"
+    }, {
+        "id": "decision_1",
+        "group": 1,
+        "label": "decision"
+    }, {
+        "id": "plan_1",
+        "group": 1,
+        "label": "plan"
+    }, {
+        "id": "entire_1",
+        "group": 1,
+        "label": "entire"
+    }, {
+        "id": "density_1",
+        "group": 1,
+        "label": "density"
+    }],
+    "links": [{
+        "source": "project_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "mobility_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "future_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "success_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "agree_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "necessity_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "decision_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "plan_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "entire_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "density_0",
+        "target": "high density projects_0",
+        "value": 1
+    }, {
+        "source": "project_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "mobility_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "future_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "success_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "agree_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "necessity_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "decision_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "plan_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "entire_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }, {
+        "source": "density_1",
+        "target": "minimal effect_1",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "a special conclusion_0",
+        "group": 0,
+        "label": "a special conclusion"
+    }, {
+        "id": "area_0",
+        "group": 0,
+        "label": "area"
+    }, {
+        "id": "suitable_0",
+        "group": 0,
+        "label": "suitable"
+    }, {
+        "id": "option_0",
+        "group": 0,
+        "label": "option"
+    }, {
+        "id": "housing_0",
+        "group": 0,
+        "label": "housing"
+    }, {
+        "id": "homelessness_0",
+        "group": 0,
+        "label": "homelessness"
+    }, {
+        "id": "gather_0",
+        "group": 0,
+        "label": "gather"
+    }, {
+        "id": "experience_0",
+        "group": 0,
+        "label": "experience"
+    }, {
+        "id": "adequate_0",
+        "group": 0,
+        "label": "adequate"
+    }, {
+        "id": "walkway_0",
+        "group": 0,
+        "label": "walkway"
+    }, {
+        "id": "special_0",
+        "group": 0,
+        "label": "special"
+    }, {
+        "id": "additional images_1",
+        "group": 1,
+        "label": "additional images"
+    }, {
+        "id": "area_1",
+        "group": 1,
+        "label": "area"
+    }, {
+        "id": "suitable_1",
+        "group": 1,
+        "label": "suitable"
+    }, {
+        "id": "option_1",
+        "group": 1,
+        "label": "option"
+    }, {
+        "id": "housing_1",
+        "group": 1,
+        "label": "housing"
+    }, {
+        "id": "homelessness_1",
+        "group": 1,
+        "label": "homelessness"
+    }, {
+        "id": "gather_1",
+        "group": 1,
+        "label": "gather"
+    }, {
+        "id": "experience_1",
+        "group": 1,
+        "label": "experience"
+    }, {
+        "id": "adequate_1",
+        "group": 1,
+        "label": "adequate"
+    }, {
+        "id": "walkway_1",
+        "group": 1,
+        "label": "walkway"
+    }, {
+        "id": "special_1",
+        "group": 1,
+        "label": "special"
+    }],
+    "links": [{
+        "source": "area_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "suitable_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "option_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "housing_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "homelessness_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "gather_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "experience_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "adequate_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "walkway_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "special_0",
+        "target": "a special conclusion_0",
+        "value": 1
+    }, {
+        "source": "area_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "suitable_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "option_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "housing_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "homelessness_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "gather_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "experience_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "adequate_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "walkway_1",
+        "target": "additional images_1",
+        "value": 1
+    }, {
+        "source": "special_1",
+        "target": "additional images_1",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "this design_4",
+        "group": 4,
+        "label": "this design"
+    }, {
+        "id": "design_4",
+        "group": 4,
+        "label": "design"
+    }, {
+        "id": "attraction_4",
+        "group": 4,
+        "label": "attraction"
+    }, {
+        "id": "impact_4",
+        "group": 4,
+        "label": "impact"
+    }, {
+        "id": "important_4",
+        "group": 4,
+        "label": "important"
+    }, {
+        "id": "possitive_4",
+        "group": 4,
+        "label": "possitive"
+    }, {
+        "id": "activate_4",
+        "group": 4,
+        "label": "activate"
+    }, {
+        "id": "tourist_4",
+        "group": 4,
+        "label": "tourist"
+    }, {
+        "id": "bridge_4",
+        "group": 4,
+        "label": "bridge"
+    }, {
+        "id": "already_4",
+        "group": 4,
+        "label": "already"
+    }, {
+        "id": "harbor_4",
+        "group": 4,
+        "label": "harbor"
+    }, {
+        "id": "safety_8",
+        "group": 8,
+        "label": "safety"
+    }, {
+        "id": "design_8",
+        "group": 8,
+        "label": "design"
+    }, {
+        "id": "attraction_8",
+        "group": 8,
+        "label": "attraction"
+    }, {
+        "id": "impact_8",
+        "group": 8,
+        "label": "impact"
+    }, {
+        "id": "important_8",
+        "group": 8,
+        "label": "important"
+    }, {
+        "id": "possitive_8",
+        "group": 8,
+        "label": "possitive"
+    }, {
+        "id": "activate_8",
+        "group": 8,
+        "label": "activate"
+    }, {
+        "id": "tourist_8",
+        "group": 8,
+        "label": "tourist"
+    }, {
+        "id": "bridge_8",
+        "group": 8,
+        "label": "bridge"
+    }, {
+        "id": "already_8",
+        "group": 8,
+        "label": "already"
+    }, {
+        "id": "harbor_8",
+        "group": 8,
+        "label": "harbor"
+    }, {
+        "id": "the cost_9",
+        "group": 9,
+        "label": "the cost"
+    }, {
+        "id": "design_9",
+        "group": 9,
+        "label": "design"
+    }, {
+        "id": "attraction_9",
+        "group": 9,
+        "label": "attraction"
+    }, {
+        "id": "impact_9",
+        "group": 9,
+        "label": "impact"
+    }, {
+        "id": "important_9",
+        "group": 9,
+        "label": "important"
+    }, {
+        "id": "possitive_9",
+        "group": 9,
+        "label": "possitive"
+    }, {
+        "id": "activate_9",
+        "group": 9,
+        "label": "activate"
+    }, {
+        "id": "tourist_9",
+        "group": 9,
+        "label": "tourist"
+    }, {
+        "id": "bridge_9",
+        "group": 9,
+        "label": "bridge"
+    }, {
+        "id": "already_9",
+        "group": 9,
+        "label": "already"
+    }, {
+        "id": "harbor_9",
+        "group": 9,
+        "label": "harbor"
+    }, {
+        "id": "pedestrians_16",
+        "group": 16,
+        "label": "pedestrians"
+    }, {
+        "id": "design_16",
+        "group": 16,
+        "label": "design"
+    }, {
+        "id": "attraction_16",
+        "group": 16,
+        "label": "attraction"
+    }, {
+        "id": "impact_16",
+        "group": 16,
+        "label": "impact"
+    }, {
+        "id": "important_16",
+        "group": 16,
+        "label": "important"
+    }, {
+        "id": "possitive_16",
+        "group": 16,
+        "label": "possitive"
+    }, {
+        "id": "activate_16",
+        "group": 16,
+        "label": "activate"
+    }, {
+        "id": "tourist_16",
+        "group": 16,
+        "label": "tourist"
+    }, {
+        "id": "bridge_16",
+        "group": 16,
+        "label": "bridge"
+    }, {
+        "id": "already_16",
+        "group": 16,
+        "label": "already"
+    }, {
+        "id": "harbor_16",
+        "group": 16,
+        "label": "harbor"
+    }, {
+        "id": "an important tourist attraction_24",
+        "group": 24,
+        "label": "an important tourist attraction"
+    }, {
+        "id": "design_24",
+        "group": 24,
+        "label": "design"
+    }, {
+        "id": "attraction_24",
+        "group": 24,
+        "label": "attraction"
+    }, {
+        "id": "impact_24",
+        "group": 24,
+        "label": "impact"
+    }, {
+        "id": "important_24",
+        "group": 24,
+        "label": "important"
+    }, {
+        "id": "possitive_24",
+        "group": 24,
+        "label": "possitive"
+    }, {
+        "id": "activate_24",
+        "group": 24,
+        "label": "activate"
+    }, {
+        "id": "tourist_24",
+        "group": 24,
+        "label": "tourist"
+    }, {
+        "id": "bridge_24",
+        "group": 24,
+        "label": "bridge"
+    }, {
+        "id": "already_24",
+        "group": 24,
+        "label": "already"
+    }, {
+        "id": "harbor_24",
+        "group": 24,
+        "label": "harbor"
+    }],
+    "links": [{
+        "source": "design_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "attraction_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "impact_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "important_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "possitive_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "activate_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "tourist_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "bridge_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "already_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "harbor_4",
+        "target": "this design_4",
+        "value": 1
+    }, {
+        "source": "design_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "attraction_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "impact_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "important_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "possitive_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "activate_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "tourist_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "bridge_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "already_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "harbor_8",
+        "target": "safety_8",
+        "value": 1
+    }, {
+        "source": "design_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "attraction_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "impact_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "important_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "possitive_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "activate_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "tourist_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "bridge_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "already_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "harbor_9",
+        "target": "the cost_9",
+        "value": 1
+    }, {
+        "source": "design_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "attraction_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "impact_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "important_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "possitive_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "activate_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "tourist_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "bridge_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "already_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "harbor_16",
+        "target": "pedestrians_16",
+        "value": 1
+    }, {
+        "source": "design_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "attraction_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "impact_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "important_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "possitive_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "activate_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "tourist_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "bridge_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "already_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }, {
+        "source": "harbor_24",
+        "target": "an important tourist attraction_24",
+        "value": 1
+    }]
+}, {
+    "nodes": [{
+        "id": "market days_0",
+        "group": 0,
+        "label": "market days"
+    }, {
+        "id": "visit_0",
+        "group": 0,
+        "label": "visit"
+    }, {
+        "id": "activity_0",
+        "group": 0,
+        "label": "activity"
+    }, {
+        "id": "week_0",
+        "group": 0,
+        "label": "week"
+    }, {
+        "id": "vibrant_0",
+        "group": 0,
+        "label": "vibrant"
+    }, {
+        "id": "hub_0",
+        "group": 0,
+        "label": "hub"
+    }, {
+        "id": "success_0",
+        "group": 0,
+        "label": "success"
+    }, {
+        "id": "transportation_0",
+        "group": 0,
+        "label": "transportation"
+    }, {
+        "id": "negative_0",
+        "group": 0,
+        "label": "negative"
+    }, {
+        "id": "feel_0",
+        "group": 0,
+        "label": "feel"
+    }, {
+        "id": "reputation_0",
+        "group": 0,
+        "label": "reputation"
+    }, {
+        "id": "unwanted uses_1",
+        "group": 1,
+        "label": "unwanted uses"
+    }, {
+        "id": "visit_1",
+        "group": 1,
+        "label": "visit"
+    }, {
+        "id": "activity_1",
+        "group": 1,
+        "label": "activity"
+    }, {
+        "id": "week_1",
+        "group": 1,
+        "label": "week"
+    }, {
+        "id": "vibrant_1",
+        "group": 1,
+        "label": "vibrant"
+    }, {
+        "id": "hub_1",
+        "group": 1,
+        "label": "hub"
+    }, {
+        "id": "success_1",
+        "group": 1,
+        "label": "success"
+    }, {
+        "id": "transportation_1",
+        "group": 1,
+        "label": "transportation"
+    }, {
+        "id": "negative_1",
+        "group": 1,
+        "label": "negative"
+    }, {
+        "id": "feel_1",
+        "group": 1,
+        "label": "feel"
+    }, {
+        "id": "reputation_1",
+        "group": 1,
+        "label": "reputation"
+    }, {
+        "id": "additional activities_2",
+        "group": 2,
+        "label": "additional activities"
+    }, {
+        "id": "visit_2",
+        "group": 2,
+        "label": "visit"
+    }, {
+        "id": "activity_2",
+        "group": 2,
+        "label": "activity"
+    }, {
+        "id": "week_2",
+        "group": 2,
+        "label": "week"
+    }, {
+        "id": "vibrant_2",
+        "group": 2,
+        "label": "vibrant"
+    }, {
+        "id": "hub_2",
+        "group": 2,
+        "label": "hub"
+    }, {
+        "id": "success_2",
+        "group": 2,
+        "label": "success"
+    }, {
+        "id": "transportation_2",
+        "group": 2,
+        "label": "transportation"
+    }, {
+        "id": "negative_2",
+        "group": 2,
+        "label": "negative"
+    }, {
+        "id": "feel_2",
+        "group": 2,
+        "label": "feel"
+    }, {
+        "id": "reputation_2",
+        "group": 2,
+        "label": "reputation"
+    }, {
+        "id": "horton plaza park_3",
+        "group": 3,
+        "label": "horton plaza park"
+    }, {
+        "id": "visit_3",
+        "group": 3,
+        "label": "visit"
+    }, {
+        "id": "activity_3",
+        "group": 3,
+        "label": "activity"
+    }, {
+        "id": "week_3",
+        "group": 3,
+        "label": "week"
+    }, {
+        "id": "vibrant_3",
+        "group": 3,
+        "label": "vibrant"
+    }, {
+        "id": "hub_3",
+        "group": 3,
+        "label": "hub"
+    }, {
+        "id": "success_3",
+        "group": 3,
+        "label": "success"
+    }, {
+        "id": "transportation_3",
+        "group": 3,
+        "label": "transportation"
+    }, {
+        "id": "negative_3",
+        "group": 3,
+        "label": "negative"
+    }, {
+        "id": "feel_3",
+        "group": 3,
+        "label": "feel"
+    }, {
+        "id": "reputation_3",
+        "group": 3,
+        "label": "reputation"
+    }, {
+        "id": "other transit options_4",
+        "group": 4,
+        "label": "other transit options"
+    }, {
+        "id": "visit_4",
+        "group": 4,
+        "label": "visit"
+    }, {
+        "id": "activity_4",
+        "group": 4,
+        "label": "activity"
+    }, {
+        "id": "week_4",
+        "group": 4,
+        "label": "week"
+    }, {
+        "id": "vibrant_4",
+        "group": 4,
+        "label": "vibrant"
+    }, {
+        "id": "hub_4",
+        "group": 4,
+        "label": "hub"
+    }, {
+        "id": "success_4",
+        "group": 4,
+        "label": "success"
+    }, {
+        "id": "transportation_4",
+        "group": 4,
+        "label": "transportation"
+    }, {
+        "id": "negative_4",
+        "group": 4,
+        "label": "negative"
+    }, {
+        "id": "feel_4",
+        "group": 4,
+        "label": "feel"
+    }, {
+        "id": "reputation_4",
+        "group": 4,
+        "label": "reputation"
+    }, {
+        "id": "nearby communities_5",
+        "group": 5,
+        "label": "nearby communities"
+    }, {
+        "id": "visit_5",
+        "group": 5,
+        "label": "visit"
+    }, {
+        "id": "activity_5",
+        "group": 5,
+        "label": "activity"
+    }, {
+        "id": "week_5",
+        "group": 5,
+        "label": "week"
+    }, {
+        "id": "vibrant_5",
+        "group": 5,
+        "label": "vibrant"
+    }, {
+        "id": "hub_5",
+        "group": 5,
+        "label": "hub"
+    }, {
+        "id": "success_5",
+        "group": 5,
+        "label": "success"
+    }, {
+        "id": "transportation_5",
+        "group": 5,
+        "label": "transportation"
+    }, {
+        "id": "negative_5",
+        "group": 5,
+        "label": "negative"
+    }, {
+        "id": "feel_5",
+        "group": 5,
+        "label": "feel"
+    }, {
+        "id": "reputation_5",
+        "group": 5,
+        "label": "reputation"
+    }],
+    "links": [{
+        "source": "visit_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "activity_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "week_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "vibrant_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "hub_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "success_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "transportation_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "negative_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "feel_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "reputation_0",
+        "target": "market days_0",
+        "value": 1
+    }, {
+        "source": "visit_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "activity_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "week_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "vibrant_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "hub_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "success_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "transportation_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "negative_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "feel_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "reputation_1",
+        "target": "unwanted uses_1",
+        "value": 1
+    }, {
+        "source": "visit_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "activity_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "week_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "vibrant_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "hub_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "success_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "transportation_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "negative_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "feel_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "reputation_2",
+        "target": "additional activities_2",
+        "value": 1
+    }, {
+        "source": "visit_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "activity_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "week_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "vibrant_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "hub_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "success_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "transportation_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "negative_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "feel_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "reputation_3",
+        "target": "horton plaza park_3",
+        "value": 1
+    }, {
+        "source": "visit_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "activity_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "week_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "vibrant_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "hub_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "success_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "transportation_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "negative_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "feel_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "reputation_4",
+        "target": "other transit options_4",
+        "value": 1
+    }, {
+        "source": "visit_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "activity_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "week_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "vibrant_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "hub_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "success_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "transportation_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "negative_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "feel_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }, {
+        "source": "reputation_5",
+        "target": "nearby communities_5",
+        "value": 1
+    }]
+}]

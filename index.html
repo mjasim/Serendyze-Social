@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+    .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+    }
+
+    text {
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .commentText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .serenText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .topicbtn:hover {
+        background-color: lightgray !important;
+        cursor: pointer !important;
+    }
+
+    .discbtn:hover {
+        /* background-color: lightgray !important; */
+        cursor: pointer;
+    }
+
+    .loader {
+        border: 8px solid #b3e5fc;
+        border-radius: 50%;
+        border-top: 8px solid black;
+        width: 8px;
+        height: 8px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+    }
+
+    .metbar:hover {
+        cursor: pointer;
+    }
+
+    #consent:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="jquery.paginate.css">
+
+<!-- Amazon -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+    <a class="navbar-brand" href="#" onclick="reload_page()" title="Refresh Page and Start Over">
+        <img src="images/dice.png" width="30" height="30" alt="">
+        DICE
+    </a>
+    <button class="navbar-toggler py-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon py-0"></span>
+    </button>
+
+    <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto py-0">
+            <!-- <li class="nav-item active py-0">
+                <a class="nav-link py-0" href="#" onclick="gototutorial()" title="User Guide">Tutorial<span
+                        class="sr-only py-0">(current)</span></a>
+            </li> -->
+            <li class="nav-item py-0">
+                <a class="nav-link py-0" href="#" data-toggle="modal" data-target="#aboutModal" title="About">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- <div class="modal fade bd-example-modal-lg" id="userModal" tabindex="-1" role="dialog" aria-labelledby="userModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="userModalLabel">Welcome to Dice</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Select a product from the dropdown, then explore product comments to make a purchase decision. You
+                    can mark comments as read by clicking on the comment.</p>
+                <div style="display: flex; flex-direction: column; justify-content: flex-start;">
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start;">
+                        <div
+                            style="display: block; width: 100px; height: 24px; margin: 5px; background-color: #b3e5fc;">
+                        </div>
+                        <div style="display: block; width: 900px; height: 50px; margin: 5px;">The Visit bar shows how
+                            many comments you interacted with.</div>
+                    </div>
+                    <div style="display: flex; flex-direction: row; justify-content: flex-start;">
+                        <div
+                            style="display: block; width: 100px; height: 24px; margin: 5px; background-color: #c8e6c9;">
+                        </div>
+                        <div style="display: block; width: 900px; height: 50px; margin: 5px;">The Coverage bar shows how
+                            many comments you know about including comments that are
+                            similar to ones you interacted with.</div>
+                    </div>
+                    <div style=" display: flex; flex-direction: row; justify-content: flex-start;">
+                        <div
+                            style="display: block; width: 100px; height: 24px; margin: 5px; background-color: #ffcdd2;">
+                        </div>
+                        <div style="display: block; width: 900px; height: 50px; margin: 5px;">The
+                            Distribution bar shows
+                            how are you interacting with comments with different
+                            sentiment
+                            categories.</div>
+                    </div>
+                    <div style="display: flex; flex-direction: row;; justify-content: flex-start;">
+                        <div style="display: flex; flex-direction: row; width: 100px; justify-content: center;"><img
+                                src="dice.png" style="width: 40px; height:40px; margin:5px;"></div>
+                        <div style="display: block; width: 900px; height: 50px; margin: 5px; padding: 10px;">Clicking
+                            Dice button will
+                            suggest you comments based your interactions with other
+                            comments
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="modal fade bd-example-modal-lg" id="aboutModal" tabindex="-1" role="dialog"
+    aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalLabel">About</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Dice is a research project aimed to study how users explore short free-form text information online
+                    before making a decision. If you have any question about the project, contact:
+                    <address>
+                        <b>Mahmood Jasim</b><br>
+                        Graduate Researcher<br>
+                        College of Information and Computer Sciences<br>
+                        University of Massachusetts<br>
+                        Amherst, MA - 01002<br>
+                        Email: <a href="mailto:mjasim@cs.umass.edu">mjasim@cs.umass.edu</a><br>
+                    </address>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div class="container"
+    style="display:flex; flex-direction: column; justify-content: flex-start; align-items: center; overflow-y: auto;">
+    <div>
+        <h3>Informed Consent</h3>
+        <p>You are being invited to participate in a research study titled “Facilitating Large-Scale Online Data
+            Analysis and Decision-Making using Interactive Technology”. This study is being done by Narges Mahyar and
+            Mahmood Jasim
+            from the University of Massachusetts Amherst. You were selected to participate in this study because you are
+            a
+            Mechanical Turk worker with a reputation of at least 95% and 100 completed tasks.</p>
+
+        <h5>Why are we doing this research study?</h5>
+        <p> purpose of this research study is to understand how members of the general public analyze, interpret,
+            and
+            make
+            decisions based on online text information.</p>
+
+        <h5>Who can participate in this research study?</h5>
+        <p>Any person who is at least 18 years of age may participate in this research study.</p>
+
+        <h5>What will I be asked to do and how much time will it take?</h5>
+        <p>If you agree to take part in this study, you will begin by answering a few question about your online
+            activities. Then, you will be asked to thoroughly read user reviews posted
+            online
+            and
+            make a
+            decision about which product you will refer someone to purchase out of ten products. <b>You have to read the
+                user reviews well enough to refer the best product. To do so, you must spend at least 1 minute on each
+                product.</b> After you make a
+            decision, you will be
+            provided
+            with a
+            questionnaire that asks you about how or why you made the decision. We expect it will take you approximately
+            60
+            minutes
+            to finish the complete study.</p>
+
+        <h5>Will being in this research study help me in any way?</h5>
+        <p>You may not directly benefit from this research; however, we hope that your participation in the study
+            may
+            help
+            researchers build better interactive tools to facilitate decision-making based on online text information in
+            the
+            future.</p>
+
+        <h5>What are my risks of being in this research study?</h5>
+        <p>We believe there are minimal risks associated with this research study; however, a risk of breach of
+            confidentiality
+            always exists and we have taken the steps to minimize this risk as outlined in a section below.</p>
+
+        <h5>How will my personal information be protected?</h5>
+        <p>To the best of our ability, your answers in this study will remain confidential. We will minimize any
+            risks
+            by
+            assigning
+            you a random 8 digit ID that will not be connected to your Mechanical Turk account. The data will be stored
+            electronically on a secure, password-protected machine. Only the research team will have access to the data.
+        </p>
+
+        <h5>Will I be given any money or other compensation for being in this research study?</h5>
+        <p>You will be paid $15.00 for participating in this study. Answering all post-decision-making questions is
+            required and
+            sufficient for payment. We ask that you answer each question
+            to the best of your ability, but the content of your answers will not affect your payment. <b>However, you
+                will need to spend at least 1 minute on each product and answer all the question asked.</b></p>
+
+        <h5>What happens if I say yes, but I change my mind later?</h5>
+        <p>You do not have to be in this study if you do not want to. If you agree to be in the study, but later
+            change
+            your mind,
+            you may drop out at any time. Understand that by dropping out, you are forfeiting compensation. There are no
+            penalties
+            of any other kind.</p>
+
+        <h5>Who can I talk to if I have questions?</h5>
+        <p>If you have questions about this project or if you have a research-related problem, you may contact the
+            researcher,
+            Mahmood Jasim at mjasim@cs.umass.edu. If you have any questions concerning your rights as a research
+            subject,
+            you may
+            contact the University of Massachusetts Amherst Human Research Protection Office (HRPO) at (413) 545-3428 or
+            humansubjects@ora.umass.edu.</p>
+
+        <p>By clicking “I agree” below you are indicating that you are at least 18 years old, have read this consent
+            form,
+            and
+            agree to participate in this research study. Please print a copy of this page for your records.</p>
+    </div>
+
+
+    <div id="consent" title="Proceed"
+        style="width: 200px; height: 30px; border-radius: 20px; border: solid thin lightgray; text-align: center; margin: 20px;"
+        onclick="gotoPre()">
+        I agree <i class="fa fa-arrow-right" style="margin-left:10px" aria-hidden="true"></i>
+    </div>
+</div>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="interaction_log.js"></script>
+<script type="text/javascript" src="hilitor.js"></script>
+<script src="jquery.paginate.js"></script>
+
+<script>
+    function gotoPre() {
+        window.open('pre_questionnaire.html', "_self")
+    }
+
+    function reload_page() {
+        logInteraction('click,nav_dice_brand,reload');
+        window.location.reload()
+        return false
+    }
+</script>

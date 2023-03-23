@@ -1,0 +1,1197 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .links line {
+        stroke: #999;
+        stroke-opacity: 0.6;
+    }
+
+    .nodes circle {
+        stroke: #fff;
+        stroke-width: 1.5px;
+    }
+
+    #save:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white
+    }
+
+    .ui-tooltip {
+        max-width: 300px !important;
+        background-color: white;
+        border: solid thin lightgray;
+        border-radius: 10px;
+    }
+
+    text {
+        font-family: sans-serif;
+        font-size: 10px;
+    }
+
+    .commentText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .serenText:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .topicbtn:hover {
+        /* background-color: #ff6 !important; */
+        border: solid 2px goldenrod !important;
+        cursor: pointer !important;
+        font-weight: bold !important;
+    }
+
+    .discbtn:hover {
+        /* background-color: #ff6 !important; */
+        border: solid 2px goldenrod !important;
+        cursor: pointer;
+        font-weight: bold !important;
+    }
+
+    /* .loader {
+        border: 10px solid #81d4fa;
+        border-radius: 50%;
+        border-top: 10px solid black;
+        width: 10px;
+        height: 10px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    } */
+
+    .metbar:hover {
+        cursor: pointer;
+    }
+
+    /* Safari */
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/7.2.0/math.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js"></script>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="jquery.paginate.css">
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark py-0">
+    <a class="navbar-brand" href="#" onclick="reload_page()" title="Refresh Page and Start Over">
+        <img src="images/dice.png" width="30" height="30" alt="">
+        DICE
+    </a>
+    <button class="navbar-toggler py-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon py-0"></span>
+    </button>
+
+    <div class="collapse navbar-collapse py-0" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto py-0">
+            <li class="nav-item active py-0">
+                <a class="nav-link py-0" href="#" onclick="gototutorial()"
+                    title="Open Tutorial in a new window">Tutorial<span class="sr-only py-0">(current)</span></a>
+            </li>
+            <li class=" nav-item py-0">
+                <a class="nav-link py-0" href="#" data-toggle="modal" data-target="#aboutModal" title="About">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="modal fade bd-example-modal-lg" id="aboutModal" tabindex="-1" role="dialog"
+    aria-labelledby="aboutModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="aboutModalLabel">About</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Dice is a research project aimed to study how users explore short free-form text information online
+                    before making a decision. If you have any question about the project, contact:
+                    <address>
+                        <b>Mahmood Jasim</b><br>
+                        Graduate Researcher<br>
+                        College of Information and Computer Sciences<br>
+                        University of Massachusetts<br>
+                        Amherst, MA - 01002<br>
+                        Email: <a href="mailto:mjasim@cs.umass.edu">mjasim@cs.umass.edu</a><br>
+                    </address>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<body onload="checkLoad()">
+
+    <div class="container" id="post_parent" display:flex; flex-direction: column; justify-content: flex-start;
+        align-items: center; overflow-y: auto;>
+
+        <h3 style="padding-left: 15px; padding-right: 15px;">Post Study Questionnaire</h3>
+        <p style="padding-left: 15px; padding-right: 15px;">Please answer the following questions to the best of your
+            abilities. You must answer all questions.</p>
+
+        <div class=" postContainer" id="post_container">
+            <form class="needs-validation" novalidate id="demo_form">
+                <div class="form-group column">
+                    <label for="q1Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q1. From the products
+                            you have seen in this study, which product would
+                            you
+                            refer to others?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q1Select" required>
+                            <option value="">Pick a Product</option>
+                            <option value="0">Koss Porta Pro On Ear Headphones with Case, Black / Silver</option>
+                            <option value="1">Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil</option>
+                            <option value="2">Sennheiser HD280PRO Headphones (old model)</option>
+                        </select>
+                        <div class="invalidFeedback" id="q1Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q2Text" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q2. Why would you refer
+                            this
+                            particular product?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q2Text" placeholder="" required>
+                        <div class="invalidFeedback" id="q2Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q3Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q3. Did you have any
+                            feature
+                            preferences before starting to read the product comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q3Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q3SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q3extension" style="display: none">
+                    <label for="q3Check" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Which of the following
+                            features did you consider before starting to read the product comments? (Select all that
+                            apply)</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Price" id="c31">Price</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Audio_Quality" id="c32">Audio Quality</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Aesthetics" id="c33">Aesthetics</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Comfort" id="c34">Comfort</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Longevity" id="c35">Longevity</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Color" id="c36">Color</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Functionality" id="c37">Functionality</label>
+                        </div>
+                        <div class="checkbox">
+                            <label><input type="checkbox" value="Other" id="q3OtherCheck">Other</label>
+                        </div>
+                    </div>
+                    <div class="invalidFeedback" id="q3checkFeedback"></div>
+                </div>
+
+                <div class="form-group column" id="q3OtherExtension" style="display: none">
+                    <label for="q3OtherText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Please write down
+                            what
+                            other
+                            features you considered before starting to read the product comments</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q3OtherText" placeholder="" required>
+                        <div class="invalidFeedback" id="q3TextFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q4Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q4. How confident are
+                            you
+                            that you have read enough comments to make your decision?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q4Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not confident</option>
+                            <option>Slightly confident</option>
+                            <option>Moderately confident</option>
+                            <option>Highly confident</option>
+                            <option>Completely confident</option>
+                        </select>
+                        <div class="invalidFeedback" id="q4Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q5Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q5. How confident are
+                            you
+                            that you have made the right decision?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q5Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not confident at all</option>
+                            <option>Slightly confident</option>
+                            <option>Moderately confident</option>
+                            <option>Highly confident</option>
+                            <option>Completely confident</option>
+                        </select>
+                        <div class="invalidFeedback" id="q5Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q6Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q6. Rank the usefulness
+                            of
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage information for reading the reviews. <i class="fa fa-square fa-sm"
+                                style="margin-right: 2px; color:#B39DDB" aria-hidden="true"></i> Coverage information
+                            shows
+                            the amount of comments you have covered implicitly, including the comments that are very
+                            similar
+                            and redundant to the ones you have previously interacted with.</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q6Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not useful</option>
+                            <option>Somewhat useful</option>
+                            <option>Neutral</option>
+                            <option>Useful</option>
+                            <option>Very useful</option>
+                        </select>
+                        <div class="invalidFeedback" id="q6Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q7Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q7. Did you use the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage
+                            information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q7Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q7SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q7Yes" style="display: none">
+                    <label for="q7YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>How did you use the <i
+                                class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage
+                            information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q7YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q7YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q7No" style="display: none;">
+                    <label for="q7NoText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Why didn't you use the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage
+                            information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q7NoText" placeholder="" required>
+                        <div class="invalidFeedback" id="q7NoFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q8Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q8. Did you find the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage
+                            information distracting?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q8Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q8SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q8Yes" style="display: none">
+                    <label for="q8YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Please explain how did
+                            you
+                            find the <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
+                                aria-hidden="true"></i>
+                            Coverage
+                            information distracting?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q8YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q8YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q9Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q9. Rank the usefulness
+                            of
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution information for reading the reviews. <i class="fa fa-square fa-sm"
+                                style="margin-right: 2px; color:#FFAB91" aria-hidden="true"></i>Distribution information
+                            shows the proportion of comment sentiments you have directly interacted
+                            with.</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q9Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not useful at all</option>
+                            <option>Somewhat useful</option>
+                            <option>Neutral</option>
+                            <option>Useful</option>
+                            <option>Very useful</option>
+                        </select>
+                        <div class="invalidFeedback" id="q9Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q10Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q10. Did you use the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution
+                            information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q10Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q10SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q10Yes" style="display: none">
+                    <label for="q10YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>How did you use the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution
+                            information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q10YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q10YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q10No" style="display: none;">
+                    <label for="q10NoText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Why didn't you use the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution information?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q10NoText" placeholder="" required>
+                        <div class="invalidFeedback" id="q10NoFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q11Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q11. Did you find the
+                            <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution
+                            information distracting?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q11Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q11SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q11Yes" style="display: none">
+                    <label for="q11YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Please explain how
+                            did
+                            you
+                            find the <i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
+                                aria-hidden="true"></i>
+                            Distribution
+                            information distracting?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q11YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q11YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q12Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q12. Rank the
+                            usefulness
+                            of the
+                            suggested comments.</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q12Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not useful</option>
+                            <option>Somewhat useful</option>
+                            <option>Neutral</option>
+                            <option>Useful</option>
+                            <option>Very useful</option>
+                        </select>
+                        <div class="invalidFeedback" id="q12Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q13Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q13. Did you use the
+                            suggested comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q13Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q13SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q13Yes" style="display: none">
+                    <label for="q13YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>How did you use the
+                            suggested comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q13YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q13YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q13YesOften" style="display:none">
+                    <label for="q13YesOftenSelect" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>
+                            How often did you
+                            use
+                            the
+                            suggested comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q13YesOftenSelect" required>
+                            <option value="">Please select an option</option>
+                            <option>Barely</option>
+                            <option>Somewhat often</option>
+                            <option>Often</option>
+                            <option>Very often</option>
+                            <option>Exclusively</option>
+                        </select>
+                        <div class="invalidFeedback" id="q13YesOftenFeedback">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group column" id="q13No" style="display: none;">
+                    <label for="q13NoText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Why didn't you use the
+                            suggested comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q13NoText" placeholder="" required>
+                        <div class="invalidFeedback" id="q13NoFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="form-group column">
+                    <label for="q14Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q14. How often did you
+                            use
+                            the
+                            suggested comments?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q14Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Not at all</option>
+                            <option>Somewhat often</option>
+                            <option>Often</option>
+                            <option>Very often</option>
+                            <option>I only used the suggested comments</option>
+                        </select>
+                        <div class="invalidFeedback" id="q14Feedback">
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="form-group column">
+                    <label for="q14Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q14. Did the suggested
+                            comments impact your decision?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q14Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Yes</option>
+                            <option>No</option>
+                        </select>
+                        <div class="invalidFeedback" id="q14SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q14Yes" style="display: none">
+                    <label for="q14YesText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Please explain how
+                            did
+                            the suggested comments impact your decision?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q14YesText" placeholder="" required>
+                        <div class="invalidFeedback" id="q14YesFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q15Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>
+                            Q15. Select one other product you learned about today (except the one you decided to
+                            refer)</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q15Select" required>
+                            <option value="">Please select a product</option>
+                            <option value="0">Koss Porta Pro</option>
+                            <option value="1">Sony MDRV6 Studio</option>
+                            <option value="2">Bose QuietComfort 25</option>
+                        </select>
+                        <div class="invalidFeedback" id="q15SelectFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column" id="q15Pick" style="display: none">
+                    <label for="q15PickText" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>In your own words,
+                            write down what you learned about this product.</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q15PickText" placeholder="" required>
+                        <div class="invalidFeedback" id="q15PickFeedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q16Text" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q16. What do you like
+                            about
+                            DICE?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q16Text" placeholder="" required>
+                        <div class="invalidFeedback" id="q16Feedback">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-group column">
+                    <label for="q17Text" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q17. What do you dislike
+                            about DICE?</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q17Text" placeholder="" required>
+                        <div class="invalidFeedback" id="q17Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q18Select" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q18. "I would like to
+                            use DICE in future when making purchasing decisions".</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <select class="form-control" id="q18Select" required>
+                            <option value="">Please select an option</option>
+                            <option>Strongly disagree</option>
+                            <option>Disagree</option>
+                            <option>Neutral</option>
+                            <option>Agree</option>
+                            <option>Strongly Agree</option>
+                        </select>
+                        <div class="invalidFeedback" id="q18Feedback">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group column">
+                    <label for="q19Text" class="col-lg-12 col-m-12 col-sm-12 col-form-label"><b>Q19. Other
+                            comments:</b></label>
+                    <div class="col-lg-12 col-m-12 col-sm-12">
+                        <input type="text" class="form-control" id="q19Text" placeholder="">
+                    </div>
+                </div>
+
+            </form>
+
+            <div
+                style="display: flex; flex-direction: column; width: 100%; align-items: center; justify-content: center;">
+                <div id="endloading" style="display: none;">Saving Input. Please don't close the window.
+                    <img src="images/hg.gif" style="margin-left: 5px; margin-top:-5px; height:20px; height: 20px">
+                </div>
+                <div id="save" title="Save"
+                    style="display: flex; flex-direction: row; justify-content: center; align-items: center; width: 200px; height: 30px; border-radius: 20px; border: solid thin lightgray; text-align: center; margin: 20px;">
+                    Save
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="interaction_log.js"></script>
+
+<script>
+    start_time = null
+    end_time = null
+
+    function checkLoad() {
+        console.log("pre-questionnaire loaded")
+        start_time = Date.now()
+    }
+
+    function gototutorial() {
+        window.open('tutorial.html', "_self")
+    }
+
+    function reload_page() {
+        logInteraction('click,nav_dice_brand,reload');
+        window.location.reload()
+        return false
+    }
+</script>
+
+
+<script>
+    var x = "";
+
+    function check_3_checkbox() {
+        var checklist = []
+        for (var i = 0; i < 7; i++)
+            if ($("#c3" + i).is(":checked")) {
+                checklist.push($("#c3" + i).val())
+            } return checklist
+    }
+
+    function validate_form(formId, feedbackId, feedbackMessage) {
+        // console.log(formId);
+        var value = "";
+        if (document.getElementById(formId).checkValidity()) {
+            document.getElementById(feedbackId).innerHTML = "";
+            value = $("#" + formId).val();
+            // console.log(value);
+        } else {
+            document.getElementById(feedbackId).innerHTML = '<i class="fa fa-info-circle" style="color:red"></i>' +
+                "\xa0" +
+                feedbackMessage;
+            x = x + 1;
+        }
+        return value;
+    }
+
+    $(document).ready(function () {
+        $('#save').click(function () {
+
+            x = parseInt(0);
+
+            localStorage.setItem("postq1", validate_form("q1Select", "q1Feedback",
+                "Please select a product"));
+
+            localStorage.setItem("postq2", validate_form("q2Text", "q2Feedback",
+                "Please provide an answer"));
+
+            localStorage.setItem("postq3Select", validate_form("q3Select", "q3SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q3Select", "q3SelectFeedback", "Please select an option") == "Yes") {
+                localStorage.setItem("postq3OtherText", validate_form("q3OtherText",
+                    "q3TextFeedback",
+                    "Please write down the features you considered before reading product comments"
+                ));
+            }
+
+            localStorage.setItem("postq4", validate_form("q4Select", "q4Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq5", validate_form("q4Select", "q5Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq6", validate_form("q6Select", "q6Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq7Select", validate_form("q7Select", "q7SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q7Select", "q7SelectFeedback", "Please select an option") == "Yes") {
+                localStorage.setItem("postq7YesText", validate_form("q7YesText", "q7YesFeedback",
+                    "Please write down how did you use the Coverage Information"
+                ));
+            } else {
+                localStorage.setItem("postq7NoText", validate_form("q7NoText", "q7NoFeedback",
+                    "Please write down why didn't you use the Coverage Information"
+                ));
+            }
+
+            localStorage.setItem("postq8Select", validate_form("q8Select", "q8SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q8Select", "q8SelectFeedback", "Please select an option") == "Yes") {
+                localStorage.setItem("postq8YesText", validate_form("q8YesText", "q8YesFeedback",
+                    "Please explain how did you find the Coverage information distracting"
+                ));
+            }
+
+            localStorage.setItem("postq9", validate_form("q9Select", "q9Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq10Select", validate_form("q10Select", "q10SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q10Select", "q10SelectFeedback", "Please select an option") ==
+                "Yes") {
+                localStorage.setItem("postq10YesText", validate_form("q10YesText", "q10YesFeedback",
+                    "Please write down how did you use the Distribution Information"
+                ));
+            } else {
+                localStorage.setItem("postq10NoText", validate_form("q10NoText", "q10NoFeedback",
+                    "Please write down why didn't you use the Distribution Information"
+                ));
+            }
+
+            localStorage.setItem("postq11Select", validate_form("q11Select", "q11SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q11Select", "q11SelectFeedback", "Please select an option") ==
+                "Yes") {
+                localStorage.setItem("postq11YesText", validate_form("q11YesText", "q11YesFeedback",
+                    "Please explain how did you find the Distribution information distracting"
+                ));
+            }
+
+            localStorage.setItem("postq12", validate_form("q12Select", "q12Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq13Select", validate_form("q13Select", "q13SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q13Select", "q13SelectFeedback", "Please select an option") ==
+                "Yes") {
+                localStorage.setItem("postq13YesText", validate_form("q13YesText", "q13YesFeedback",
+                    "Please write down how did you use the suggested comments"
+                ));
+            } else {
+                localStorage.setItem("postq13NoText", validate_form("q13NoText", "q13NoFeedback",
+                    "Please write down why didn't you use the suggested comments"
+                ));
+            }
+
+            if (validate_form("q13Select", "q13SelectFeedback", "Please select an option") ==
+                "Yes") {
+                localStorage.setItem("postq13YesOften", validate_form("q13YesOftenSelect",
+                    "q13YesOftenFeedback",
+                    "Please select an option"));
+            }
+
+            // localStorage.setItem("postq14", validate_form("q14Select", "q14Feedback",
+            //     "Please select an option"));
+
+            localStorage.setItem("postq14Select", validate_form("q14Select", "q14SelectFeedback",
+                "Please select an option"));
+
+            if (validate_form("q14Select", "q14SelectFeedback", "Please select an option") ==
+                "Yes") {
+                localStorage.setItem("postq14YesText", validate_form("q14YesText", "q14YesFeedback",
+                    "Please explain how did the suggested comments impact your decision"
+                ));
+            }
+
+            localStorage.setItem("postq15Select", validate_form("q15Select", "q15SelectFeedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq15PickText", validate_form("q15PickText", "q15PickFeedback",
+                "Please provide an answer"));
+
+            localStorage.setItem("postq16", validate_form("q16Text", "q16Feedback",
+                "Please provide an answer"));
+
+            localStorage.setItem("postq17", validate_form("q17Text", "q17Feedback",
+                "Please provide an answer"));
+
+            localStorage.setItem("postq18", validate_form("q18Select", "q18Feedback",
+                "Please select an option"));
+
+            localStorage.setItem("postq19", $("#q19Text").val());
+
+            console.log("x = ", x)
+
+            // for (var l in localStorage) {
+            //     console.log('post_q' + ',' + l + ',' + localStorage.getItem(l));
+            // }
+
+            var checklist = check_3_checkbox()
+            if (checklist.length > 0) {
+                var checkstring = ""
+                for (var i in checklist) {
+                    checkstring = checkstring + "-" + checklist[i]
+                }
+                localStorage.setItem("post3checkString", checkstring)
+            } else {
+                document.getElementById("q3checkFeedback").innerHTML =
+                    '<i class="fa fa-info-circle" style="color:red"></i>' +
+                    "\xa0" +
+                    "Please select at least one option";
+                x = x + 1
+            }
+
+            if (x == 0) {
+                console.log("locallength", localStorage.length)
+                for (var l in localStorage) {
+                    if (l.toString().includes("post")) {
+                        logInteraction('post_q' + ',' + l + ',' + localStorage.getItem(l));
+                    }
+                }
+                end_time = Date.now()
+                logInteraction('post_q' + ',' + 'totaltime' + ',' + (end_time - start_time) + 's');
+                document.getElementById("endloading").style.display = "block"
+                setTimeout(function () {
+                    document.getElementById("endloading").style.display = "none"
+                    window.open('outro.html', '_self')
+                }, 7000)
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q1Select').change(function () {
+            document.getElementById("q1Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q2Text').change(function () {
+            document.getElementById("q2Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q3Select').change(function () {
+            document.getElementById("q3SelectFeedback").innerHTML = "";
+            var temp = $("#q3Select").val();
+            if (temp == "Yes") {
+                document.getElementById("q3extension").setAttribute("style", "display:block");
+            } else {
+                document.getElementById("q3extension").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q3OtherCheck').on("change", function () {
+            if ($(this).is(":checked")) {
+                console.log("yes")
+                document.getElementById("q3OtherExtension").style.display = "block"
+            } else if ($(this).is(":not(:checked)")) {
+                document.getElementById("q3OtherExtension").style.display = "none"
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q3OtherText').change(function () {
+            document.getElementById("q3TextFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q4Select').change(function () {
+            document.getElementById("q4Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q5Select').change(function () {
+            document.getElementById("q5Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q6Select').change(function () {
+            document.getElementById("q6Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q7Select').change(function () {
+            document.getElementById("q7SelectFeedback").innerHTML = "";
+            var temp = $("#q7Select").val();
+            console.log(temp)
+            if (temp == "Yes") {
+                document.getElementById("q7Yes").setAttribute("style", "display:block");
+                document.getElementById("q7No").setAttribute("style", "display:none");
+            } else {
+                document.getElementById("q7No").setAttribute("style", "display:block");
+                document.getElementById("q7Yes").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q7YesText').change(function () {
+            document.getElementById("q7YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q7NoText').change(function () {
+            document.getElementById("q7NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q8Select').change(function () {
+            document.getElementById("q8SelectFeedback").innerHTML = "";
+            var temp = $("#q8Select").val();
+            if (temp == "Yes") {
+                document.getElementById("q8Yes").setAttribute("style", "display:block");
+            } else {
+                document.getElementById("q8Yes").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q8YesText').change(function () {
+            document.getElementById("q8YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q8NoText').change(function () {
+            document.getElementById("q8NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q9Select').change(function () {
+            document.getElementById("q9Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q10Select').change(function () {
+            document.getElementById("q10SelectFeedback").innerHTML = "";
+            var temp = $("#q10Select").val();
+            console.log(temp)
+            if (temp == "Yes") {
+                document.getElementById("q10Yes").setAttribute("style", "display:block");
+                document.getElementById("q10No").setAttribute("style", "display:none");
+            } else {
+                document.getElementById("q10No").setAttribute("style", "display:block");
+                document.getElementById("q10Yes").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q10YesText').change(function () {
+            document.getElementById("q10YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q10NoText').change(function () {
+            document.getElementById("q10NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q11Select').change(function () {
+            document.getElementById("q11SelectFeedback").innerHTML = "";
+            var temp = $("#q11Select").val();
+            if (temp == "Yes") {
+                document.getElementById("q11Yes").setAttribute("style", "display:block");
+            } else {
+                document.getElementById("q11Yes").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q11YesText').change(function () {
+            document.getElementById("q11YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q11NoText').change(function () {
+            document.getElementById("q11NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q12Select').change(function () {
+            document.getElementById("q12Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q13Select').change(function () {
+            document.getElementById("q13SelectFeedback").innerHTML = "";
+            var temp = $("#q13Select").val();
+            console.log(temp)
+            if (temp == "Yes") {
+                document.getElementById("q13Yes").setAttribute("style", "display:block");
+                document.getElementById("q13YesOften").setAttribute("style", "display:block");
+                document.getElementById("q13No").setAttribute("style", "display:none");
+            } else {
+                document.getElementById("q13No").setAttribute("style", "display:block");
+                document.getElementById("q13Yes").setAttribute("style", "display:none");
+                document.getElementById("q13YesOften").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q13YesText').change(function () {
+            document.getElementById("q13YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q13NoText').change(function () {
+            document.getElementById("q13NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q13YesOftenSelect').change(function () {
+            document.getElementById("q13YesOftenFeedback").innerHTML = "";
+        });
+    });
+
+    // $(document).ready(function () {
+    //     $('#q14Select').change(function () {
+    //         document.getElementById("q14Feedback").innerHTML = "";
+    //     });
+    // });
+
+    $(document).ready(function () {
+        $('#q14Select').change(function () {
+            document.getElementById("q14SelectFeedback").innerHTML = "";
+            var temp = $("#q14Select").val();
+            if (temp == "Yes") {
+                document.getElementById("q14Yes").setAttribute("style", "display:block");
+            } else {
+                document.getElementById("q14Yes").setAttribute("style", "display:none");
+            }
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q14YesText').change(function () {
+            document.getElementById("q14YesFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q14NoText').change(function () {
+            document.getElementById("q14NoFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q15Select').change(function () {
+            document.getElementById("q15SelectFeedback").innerHTML = "";
+            document.getElementById("q15Pick").setAttribute("style", "display:block");
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q15PickText').change(function () {
+            document.getElementById("q15PickFeedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q16Text').change(function () {
+            document.getElementById("q16Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q17Text').change(function () {
+            document.getElementById("q17Feedback").innerHTML = "";
+        });
+    });
+
+    $(document).ready(function () {
+        $('#q18Select').change(function () {
+            document.getElementById("q18Feedback").innerHTML = "";
+        });
+    });
+</script>
