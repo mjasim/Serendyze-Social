@@ -136,11 +136,11 @@
                         class="fa fa-search" aria-hidden="true" style="color:lightgray;"></i></button>
             </form> -->
         </ul>
-        <div id="proceedtopost" class="my-2 my-sm-0"
+        <!-- <div id="proceedtopost" class="my-2 my-sm-0"
             style="background-color: white; border:solid thin black; border-radius: 20px;padding-left:10px; padding-right: 10px; display: none;"
             onclick="gotoPost()">Finalize
             Decision and
-            Proceed</div>
+            Proceed</div> -->
     </div>
 </nav>
 
@@ -186,23 +186,12 @@
 
             <div class="w3-content">
                 <div class="row">
-                    <div class="col-12" id="dropdown_options" style="margin-right: 50px">
+                    <div class="col-12" id="dropdown_options" style="margin-right: 50px;">
                         <select id="area" name="area">
-                            <option value="">Pick a Product</option>
-                            <option value="0">Koss Porta Pro On Ear Headphones with Case, Black / Silver</option>
-                            <option value="1">Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil</option>
-                            <option value="2">Sennheiser HD280PRO Headphones (old model)</option>
+                            <option value="">Pick a Topic</option>
+                            <option value="0">Gun Control</option>
+                            <option value="1">Immigration</option>
                         </select>
-
-                        <!-- <select id="area" name="area">
-                        <option value="">Pick a Discussion Topic</option>
-                        <option value="0">Sustainable Design and Production</option>
-                        <option value="1">Collection and Management</option>
-                        <option value="2">Sustainable Lifestyle and Education</option>
-                        <option value="3">Research and Innovation</option>
-                        <option value="4">On the Ground Action</option>
-                        <option value="5">Tell Us More</option>
-                    </select> -->
                     </div>
                 </div>
             </div>
@@ -224,8 +213,8 @@
         lightgray;">
             <div id="topicinfo" style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center; width: 10%;
             text-align: center; padding-left:20px;">
-                <i class="fa fa-info-circle fa-lg" style="margin-right: 5px; color:gray" title="These are most frequent word pairs that appear in the reviews. Click the words to filter
-                    relevant reviews"></i>Keywords
+                <i class="fa fa-info-circle fa-lg" style="margin-right: 5px; color:gray" title="These are most frequent word pairs that appear in the comments. Click the words to filter
+                    relevant comments"></i>Keywords
             </div>
             <div id="topicbox"
                 style="display:flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; margin:5px; width: 90%;">
@@ -236,8 +225,8 @@
         visibility: hidden; background-color: white;">
             <div id="discinfo" style="display: flex; flex-direction: row; justify-content: flex-start; align-items: center;width: 10%;
             text-align: center; padding-left: 20px;">
-                <i class="fa fa-info-circle fa-lg" style="margin-right: 5px; color:gray" title="Click on the sentiments to filter the reviews by Positive, Neutral, or Negative
-                    reviews"></i>Sentiments
+                <i class="fa fa-info-circle fa-lg" style="margin-right: 5px; color:gray" title="Click on the alignments to filter the comments that are For, Neutral, or Against
+                    the selected topic"></i>Alignment
             </div>
             <div id="discbox" style="display:flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center;
             align-items: center; margin:5px; width: 90%">
@@ -254,55 +243,44 @@
             <div id="metricsbox"
                 style="display:flex; flex-direction: row; flex-wrap: wrap; align-items: flex-start; margin:5px; width:90%">
                 <div style="display:flex; flex-direction: column; align-items: center; width:31%; margin-top: 5px; margin-bottom: 5px; margin-left: 1%; margin-right: 1%;">
-                    <div class="metbar" id="visitback" style="border: solid 2px lightgrey; width:100%" title="This bar shows the amount of reviews you have directly interacted with. Keep interacting
-                        with the reviews to increase your review Visit">
+                    <div class="metbar" id="visitback" style="border: solid 2px lightgrey; width:100%" title="This bar shows the amount of comments you have directly interacted with. Keep interacting
+                        with the comments to increase your comment Visit">
                         <div id="visitBar" style="height:24px; width:0%; background-color: #81d4fa;">
                         </div>
                     </div>
                     <div id="vistext"><i class="fa fa-square fa-sm" style="margin-right: 2px; color:#81d4fa"
                             aria-hidden="true"></i>Visit:
-                        You read 0% reviews</div>
+                        You read 0% comments</div>
                 </div>
 
                 <div style="display:flex; flex-direction: column; align-items: center; width:31%; margin-top: 5px; margin-bottom: 5px; margin-left: 1%; margin-right: 1%;">
-                    <div class="metbar" id="coverback" style="border: solid 2px lightgrey; width:100%" title="This bar shows the amount of reviews you have covered implicitly, including the reviews
+                    <div class="metbar" id="coverback" style="border: solid 2px lightgrey; width:100%" title="This bar shows the amount of comments you have covered implicitly, including the comments
                         that are very similar and redundant to the ones you have already interacted with. Keep
-                        interacting with the reviews to increase your review Coverage">
+                        interacting with the comments to increase your comment Coverage">
                         <div id="coverageBar" style="height:24px; width:0%; background-color: #B39DDB;">
                         </div>
                     </div>
                     <div id="covtext"><i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB"
-                            aria-hidden="true"></i>Coverage: You know about 0% reviews
+                            aria-hidden="true"></i>Coverage: You know about 0% comments
                     </div>
                 </div>
-
-                <!-- <div style="display:flex; flex-direction: column; align-items: center; width:31%; margin-top: 5px; margin-bottom: 5px; margin-left: 1%; margin-right: 1%;">
-                    <div class="metbar" id="distback" style="border: solid 2px lightgrey; width:100%" title="This bar shows the proportion of review sentiments you have directly interacted with. Keep interacting with reviews with different kinds of sentiments
-                    to increase your review Distribution">
-                        <div id="distributionBar" style="height:24px; width:0%; background-color: #FFAB91;">
-                        </div>
-                    </div>
-                    <div id="disttext"><i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91"
-                            aria-hidden="true"></i>Distribution: You read 0%
-                        sentiments</div>
-                </div> -->
-                
+               
                 <div style="display:flex; flex-direction: column; align-items: center; width:31%; margin-top: 5px; margin-bottom: 5px; margin-left: 1%; margin-right: 1%;">
                     <div style="display: flex; flex-direction: row; align-items: center; width: 100%">
-                        <div class="sentbar" id="posbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of positive comments you have directly interacted with.">
+                        <div class="sentbar" id="posbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of comments you have directly interacted with that are in support (For) of the topic.">
                             <div id="positiveBar" style="display: flex; flex-direction: row; align-items: center; height:24px; width:0%; background-color: lightgray;"><i class="fa fa-plus" style="margin: 0px 3px 0px 3px"></i>
                             </div>
                         </div>
-                        <div class="sentbar" id="neutbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of neutral comments you have directly interacted with.">
+                        <div class="sentbar" id="neutbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of comments you have directly interacted with that are neutral about the topic.">
                             <div id="neutralBar" style="display: flex; flex-direction: row; align-items: center; height:24px; width:0%; background-color: lightgray;"><i class="fa fa-minus" style="margin: 0px 3px 0px 3px"></i>
                             </div>
                         </div>
-                        <div class="sentbar" id="negbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of negative comments you have directly interacted with.">
+                        <div class="sentbar" id="negbar" style="border: solid 2px lightgrey;" title="This bar shows the amount of comments you have directly interacted with that are in opposition (Against) of the topic.">
                             <div id="negativeBar" style="display: flex; flex-direction: row; align-items: center; height:24px; width:0%; background-color: lightgray;"><i class="fa fa-circle-o" style="margin: 0px 3px 0px 3px"></i>
                             </div>
                         </div>
                     </div>
-                    <div id="disttext"><i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden = "true"></i> Distribution: You read 0% sentiments
+                    <div id="disttext"><i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden = "true"></i> Distribution: You read 0% alignments
                     </div>
                 </div>
             </div>
@@ -345,9 +323,9 @@
 
     function checkLoad() {
         console.log("dice loaded")
-        alert(
-            "Refreshing the page will result in losing all progress. Please do not refresh the page unless you want to start over."
-        )
+        // alert(
+        //     "Refreshing the page will result in losing all progress. Please do not refresh the page unless you want to start over."
+        // )
         start_time = Date.now()
     }
 
@@ -415,8 +393,8 @@
 
     for (var i = 0; i < 3; i++) {
         discourses_array[i] = {
-            "Positive": 0,
-            "Negative": 0,
+            "For": 0,
+            "Against": 0,
             "Neutral": 0,
         }
 
@@ -427,97 +405,26 @@
         }
     }
 
-    d3.json("mat_data_amz.json", function (error, data) {
+    // d3.json("mat_data_amz_test.json", function (error, data) {
+    d3.json("mat_data_tweet.json", function (error, data) {
         if (error) throw error;
         full_data = JSON.parse(JSON.stringify(data));
         console.log(full_data)
 
-        orig_area_text = ["Koss Porta Pro On Ear Headphones with Case, Black / Silver",
-            "Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil",
-            "Sennheiser HD280PRO Headphones (old model)",
+        orig_area_text = ["Gun Control",
+            "Immigration",
         ]
     })
 
     var dropdown_div = ""
     dropdown_div += '<select id="area" name="area">' +
-        '<option value="">Pick a Product</option>' +
-        '<option value="0">Koss Porta Pro On Ear Headphones with Case, Black / Silver</option>' +
-        '<option value="1">Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil</option>' +
-        '<option value="2">Sennheiser HD280PRO Headphones (old model)</option>'
+        '<option value="">Pick a Topic</option>' +
+        '<option value="0">Gun Control</option>' +
+        '<option value="1">Immigration</option>' 
 
     document.getElementById("dropdown_options").innerHTML = dropdown_div
-
-    // function dataselector(dataset) {
-    //     if (dataset == "amazon") {
-    //         console.log("Amazon")
-    //         cleanup()
-
-    //         d3.json("mat_data_amz.json", function (error, data) {
-    //             if (error) throw error;
-    //             full_data = JSON.parse(JSON.stringify(data));
-    //             console.log(full_data)
-
-    //             orig_area_text = ["Koss Porta Pro On Ear Headphones with Case, Black / Silver",
-    //                 "Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil",
-    //                 "Sennheiser HD280PRO Headphones (old model)",
-    //                 "Sennheiser RS120 On-Ear Wireless RF Headphones with Charging Dock",
-    //                 "Sony MDR7506 Professional Large Diaphragm Headphone",
-    //                 "Sennheiser HD 202 II Professional Headphones (Black)",
-    //                 "Sony MDREX10LP/BLK In-Ear Headphones",
-    //                 "Bose QuietComfort 15 Acoustic Noise Cancelling Headphones",
-    //                 "Bose QuietComfort 25 Acoustic Noise Cancelling Headphones",
-    //                 "Bluedio T2s Bluetooth Headphones On Ear with Mic, 57mm Driver"
-    //             ]
-    //         })
-
-    //         var dropdown_div = ""
-    //         dropdown_div += '<select id="area" name="area">' +
-    //             '<option value="">Pick a Product</option>' +
-    //             '<option value="0">Koss Porta Pro On Ear Headphones with Case, Black / Silver</option>' +
-    //             '<option value="1">Sony MDRV6 Studio Monitor Headphones with CCAW Voice Coil</option>' +
-    //             '<option value="2">Sennheiser HD280PRO Headphones (old model)</option>' +
-    //             '<option value="3">Sennheiser RS120 On-Ear Wireless RF Headphones with Charging Dock' +
-    //             '</option>' +
-    //             '<option value="4">Sony MDR7506 Professional Large Diaphragm Headphone</option>' +
-    //             '<option value="5">Sennheiser HD 202 II Professional Headphones (Black)</option>' +
-    //             '<option value="6">Sony MDREX10LP/BLK In-Ear Headphones</option>' +
-    //             '<option value="7">Bose QuietComfort 15 Acoustic Noise Cancelling Headphones</option>' +
-    //             '<option value="8">Bose QuietComfort 25 Acoustic Noise Cancelling Headphones</option>' +
-    //             '<option value="9">Bluedio T2s Bluetooth Headphones On Ear with Mic, 57mm Driver' +
-    //             '</option>'
-
-    //         document.getElementById("dropdown_options").innerHTML = dropdown_div
-
-    //     } else {
-    //         console.log("EnvCanada")
-    //         cleanup()
-
-    //         d3.json("mat_data_env.json", function (error, data) {
-    //             if (error) throw error;
-    //             full_data = JSON.parse(JSON.stringify(data));
-    //             console.log(full_data)
-
-    //             orig_area_text = ["Pick a Discussion Topic", "Sustainable Design and Production",
-    //                 "Collection and Management", "Sustainable Lifestyle and Education",
-    //                 "Research and Innovation",
-    //                 "On the Ground Action", "Tell Us More"
-    //             ]
-    //         })
-
-    //         var dropdown_div = ""
-    //         dropdown_div += '<select id="area" name="area">' +
-    //             '<option value="">Pick a Discussion Topic</option>' +
-    //             '<option value="0">Sustainable Design and Production</option>' +
-    //             '<option value="1">Collection and Management</option>' +
-    //             '<option value="2">Sustainable Lifestyle and Education</option>' +
-    //             '<option value="3">Research and Innovation</option>' +
-    //             '<option value="4">On the Ground Action</option>' +
-    //             '<option value="5">Tell Us More</option>' +
-    //             '</select>'
-
-    //         document.getElementById("dropdown_options").innerHTML = dropdown_div
-    //     }
-    // }
+    
+// DONE
 
     function cleanup() {
         seren_log = {
@@ -562,8 +469,8 @@
         metrics = []
         for (var i = 0; i < 30; i++) {
             discourses_array[i] = {
-                "Positive": 0,
-                "Negative": 0,
+                "For": 0,
+                "Against": 0,
                 "Neutral": 0,
             }
             metrics[i] = {
@@ -601,6 +508,8 @@
         }
     }
 
+// TODO: NEED NGRAMS FOR THIS 
+
     function render_topics(discussion_id) {
         proposal_data = full_data[discussion_id]
         // console.log(proposal_data)
@@ -620,9 +529,9 @@
         for (var i in sorted_ngrams.slice(0, 8)) {
             var divbutton = document.createElement("div")
             var buttonHTML = '<div class="topicbtn" id="ngram_' + i +
-                '\" style="margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 140px;">' +
+                '\" style="margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 180px;">' +
                 sorted_ngrams[i].ngram + '</div>' +
-                '<div style="margin:5px; padding-left:3px; padding-right:3px; position: relative; width: 140px;">' +
+                '<div style="margin:5px; padding-left:3px; padding-right:3px; position: relative; width: 180px;">' +
                 '<div class="tinybar" id=\"met_' +
                 sorted_ngrams[i].ngram +
                 '\" style="width: 0%; height: 24px; background-color:red; display:none; border-radius: 5px; position: absolute; top:-30px; left: 0;"></div></div>';
@@ -632,6 +541,8 @@
 
         document.getElementById('topicparent').style.borderBottom = "solid thin lightgray"
     }
+
+// DONE
 
     function render_search() {
         logInteraction('click,search_' + search_filter + ',search a keyword')
@@ -675,7 +586,7 @@
                 var sent = ""
                 var headertext = ""
 
-                headertext = "Reviews with searched keyword \"" + document.getElementById("navSearch").value +
+                headertext = "Comments with searched keyword \"" + document.getElementById("navSearch").value +
                     "\": "
 
                 if (proposal_data.comments[i].comment.toLowerCase().includes(search_filter)) {
@@ -683,10 +594,10 @@
 
                     divSum = document.createElement("div")
 
-                    if (proposal_data.comments[i].discourse == "Positive") {
-                        sent = '<i class="fa fa-plus"></i>'
-                    } else if (proposal_data.comments[i].discourse == "Negative") {
-                        sent = '<i class="fa fa-minus"></i>'
+                    if (proposal_data.comments[i].discourse == "For") {
+                        sent = '<i class="fa fa-thumbs-up"></i>'
+                    } else if (proposal_data.comments[i].discourse == "Against") {
+                        sent = '<i class="fa fa-thumbs-down"></i>'
                     } else {
                         sent = '<i class="fa fa-circle-o"></i>'
                     }
@@ -721,15 +632,21 @@
         }
     }
 
+// ??? DOUBLE CHECK WHAT THIS IS
+
     $(document).ready(function(){
         // $(document).tooltip();
     });
+
+// DONE
 
     function reload_page() {
         logInteraction('click,nav_dice_brand,reload');
         window.location.reload()
         return false
     }
+
+// DONE
 
     function render_discourse(discussion_id) {
         proposal_data = full_data[discussion_id]
@@ -745,10 +662,10 @@
             var sent_text = "black"
             var sent = ""
 
-            if (proposal_data.discourses[i].discourse_name == "Positive") {
-                sent = '<i class="fa fa-plus" style="margin-right: 5px"></i>'
-            } else if (proposal_data.discourses[i].discourse_name == "Negative") {
-                sent = '<i class="fa fa-minus" style="margin-right: 5px"></i>'
+            if (proposal_data.discourses[i].discourse_name == "For") {
+                sent = '<i class="fa fa-thumbs-up" style="margin-right: 5px"></i>'
+            } else if (proposal_data.discourses[i].discourse_name == "Against") {
+                sent = '<i class="fa fa-thumbs-down" style="margin-right: 5px"></i>'
             } else {
                 sent = '<i class="fa fa-circle-o" style="margin-right: 5px"></i>'
             }
@@ -772,6 +689,8 @@
         document.getElementById('discparent').style.borderBottom = "solid thin lightgray"
     }
 
+// DONE
+
     function render_text(text_filter) {
         
         var count = 0
@@ -789,7 +708,7 @@
             var headertext = ""
 
             if (topic_filter && disc_filter) {
-                headertext = disc_filter + " reviews with keyword \"" + topic_filter + "\": "
+                headertext = disc_filter + " comments with keyword \"" + topic_filter + "\": "
 
                 var tokens = proposal_data.comments[i].comment.toLowerCase().split(" ");
 
@@ -803,10 +722,10 @@
 
                     divSum = document.createElement("div")
 
-                    if (proposal_data.comments[i].discourse == "Positive") {
-                        sent = '<i class="fa fa-plus"></i>'
-                    } else if (proposal_data.comments[i].discourse == "Negative") {
-                        sent = '<i class="fa fa-minus"></i>'
+                    if (proposal_data.comments[i].discourse == "For") {
+                        sent = '<i class="fa fa-thumbs-up"></i>'
+                    } else if (proposal_data.comments[i].discourse == "Against") {
+                        sent = '<i class="fa fa-thumbs-down"></i>'
                     } else {
                         sent = '<i class="fa fa-circle-o"></i>'
                     }
@@ -831,7 +750,7 @@
 
             } else if (topic_filter && !disc_filter) {
 
-                headertext = "Reviews with keyword \"" + topic_filter + "\": "
+                headertext = "Comments with keyword \"" + topic_filter + "\": "
             
                 var tokens = proposal_data.comments[i].comment.toLowerCase().split(" ");
 
@@ -845,10 +764,10 @@
 
                     divSum = document.createElement("div")
 
-                    if (proposal_data.comments[i].discourse == "Positive") {
-                        sent = '<i class="fa fa-plus"></i>'
-                    } else if (proposal_data.comments[i].discourse == "Negative") {
-                        sent = '<i class="fa fa-minus"></i>'
+                    if (proposal_data.comments[i].discourse == "For") {
+                        sent = '<i class="fa fa-thumbs-up"></i>'
+                    } else if (proposal_data.comments[i].discourse == "Against") {
+                        sent = '<i class="fa fa-thumbs-down"></i>'
                     } else {
                         sent = '<i class="fa fa-circle-o"></i>'
                     }
@@ -873,16 +792,16 @@
                 }
 
             } else if (disc_filter && !topic_filter) {
-                headertext = disc_filter + " reviews: "
+                headertext = disc_filter + " comments: "
 
                 if (disc_filter == proposal_data.comments[i].discourse) {
 
                     count += 1
 
-                    if (proposal_data.comments[i].discourse == "Positive") {
-                        sent = '<i class="fa fa-plus"></i>'
-                    } else if (proposal_data.comments[i].discourse == "Negative") {
-                        sent = '<i class="fa fa-minus"></i>'
+                    if (proposal_data.comments[i].discourse == "For") {
+                        sent = '<i class="fa fa-thumbs-up"></i>'
+                    } else if (proposal_data.comments[i].discourse == "Against") {
+                        sent = '<i class="fa fa-thumbs-down"></i>'
                     } else {
                         sent = '<i class="fa fa-circle-o"></i>'
                     }
@@ -910,13 +829,13 @@
 
             } else if (!text_filter) {
 
-                headertext = "Total reviews: "
+                headertext = "Total comments: "
                 count += 1
 
-                if (proposal_data.comments[i].discourse == "Positive") {
-                    sent = '<i class="fa fa-plus"></i>'
-                } else if (proposal_data.comments[i].discourse == "Negative") {
-                    sent = '<i class="fa fa-minus"></i>'
+                if (proposal_data.comments[i].discourse == "For") {
+                    sent = '<i class="fa fa-thumbs-up"></i>'
+                } else if (proposal_data.comments[i].discourse == "Against") {
+                    sent = '<i class="fa fa-thumbs-down"></i>'
                 } else {
                     sent = '<i class="fa fa-circle-o"></i>'
                 }
@@ -945,6 +864,8 @@
         document.getElementById("commentheader").textContent = headertext + count
     }
 
+// DONE
+
     function render_serenbox(data) {
         var myNode = document.getElementById("serenbox");
         while (myNode.firstChild) {
@@ -962,9 +883,9 @@
 
         for (var i in explored_list[did]) {
             // console.log(explored_list[did][i].disc)
-            if (explored_list[did][i].disc == "Positive")
+            if (explored_list[did][i].disc == "For")
                 pos += 1
-            else if (explored_list[did][i].disc == "Negative")
+            else if (explored_list[did][i].disc == "Against")
                 neg += 1
             else
                 neut += 1
@@ -986,9 +907,9 @@
         var sim_score = 0
         for (var i in data[1]) {
             var prop_selector = null
-            if (data[1][i].disc == "Positive")
+            if (data[1][i].disc == "For")
                 prop_selector = pos_proportion
-            else if (data[1][i].disc == "Negative")
+            else if (data[1][i].disc == "Against")
                 prop_selector = neg_proportion
             else
                 prop_selector = neut_proportion
@@ -1125,10 +1046,10 @@
             // cnt += 1
             // idx_list.push(idx)
 
-            if (sorted_balanced_list[idx].disc == "Positive") {
-                sent = '<i class="fa fa-plus"></i>'
-            } else if (sorted_balanced_list[idx].disc == "Negative") {
-                sent = '<i class="fa fa-minus"></i>'
+            if (sorted_balanced_list[idx].disc == "For") {
+                sent = '<i class="fa fa-thumbs-up"></i>'
+            } else if (sorted_balanced_list[idx].disc == "Against") {
+                sent = '<i class="fa fa-thumbs-down"></i>'
             } else {
                 sent = '<i class="fa fa-circle-o"></i>'
             }
@@ -1153,17 +1074,17 @@
             // myNode.appendChild(divSum)
         }
 
-        divHTML += '<div style="width=100%; height: 25px; border: solid thin lightgray; margin: 10px 10px 20px 10px">\xa0\xa0Suggested reviews you have visited already</div>'
+        divHTML += '<div style="width=100%; height: 25px; border: solid thin lightgray; margin: 10px 10px 20px 10px">\xa0\xa0Suggested comments you have visited already</div>'
 
         var proposal_data = full_data[did]
         for (var i in seren_id_list[did]){
             for (var j in proposal_data.comments){
                 if(proposal_data.comments[j].comment_id == seren_id_list[did][i]){
 
-                    if (proposal_data.comments[j].discourse == "Positive") {
-                        sent = '<i class="fa fa-plus"></i>'
-                    } else if (proposal_data.comments[j].discourse == "Negative") {
-                        sent = '<i class="fa fa-minus"></i>'
+                    if (proposal_data.comments[j].discourse == "For") {
+                        sent = '<i class="fa fa-thumbs-up"></i>'
+                    } else if (proposal_data.comments[j].discourse == "Against") {
+                        sent = '<i class="fa fa-thumbs-down"></i>'
                     } else {
                         sent = '<i class="fa fa-circle-o"></i>'
                     }
@@ -1187,6 +1108,8 @@
 
     }
 
+// DONE
+
     function tinymove(bar_id, max_len) {
         var elem = document.getElementById(bar_id);
         var width = 0
@@ -1201,6 +1124,8 @@
             }
         }
     }
+
+// DONE 
 
     function move(bar_id, max_len) {
         var elem = document.getElementById(bar_id);
@@ -1231,7 +1156,7 @@
                 metrics[did].coverage = width
                 document.getElementById("covtext").innerHTML =
                     '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB" aria-hidden="true"></i>' +
-                    'Coverage: You know about ' + covered_list[did].length + ' reviews' + ' (' + width * 1 + '%)';
+                    'Coverage: You know about ' + covered_list[did].length + ' comments' + ' (' + width * 1 + '%)';
                 localStorage.setItem("coverageBar", width.toString())
 
             } else if (bar_id == "distributionBar") {
@@ -1249,9 +1174,9 @@
 
                 for (var i in proposal_data.comments) {
                     if (explored_ids.includes(proposal_data.comments[i].comment_id.toString())) {
-                        if (proposal_data.comments[i].discourse == "Positive") {
+                        if (proposal_data.comments[i].discourse == "For") {
                             pos += 1
-                        } else if (proposal_data.comments[i].discourse == "Negative") {
+                        } else if (proposal_data.comments[i].discourse == "Against") {
                             neg += 1
                         } else {
                             neut += 1
@@ -1260,10 +1185,10 @@
                 }
                 var total = pos + neg + neut
                 var items = [{
-                    "sent": "Positive",
+                    "sent": "For",
                     "count": pos
                 }, {
-                    "sent": "Negative",
+                    "sent": "Against",
                     "count": neg
                 }, {
                     "sent": "Neutral",
@@ -1281,7 +1206,7 @@
                         '<i class="fa fa-square fa-sm" style="margin-right:2px; color:#FFAB91" aria-hidden="true"></i>' +
                         'Distribution: You read ' +
                         sorted[0]
-                        .sent + ' reviews';
+                        .sent + ' comments';
                 } else {
                     var sgroup = ((sorted[1].count / total) - (sorted[2].count / total)) * 100
                     if (sgroup > 10) {
@@ -1290,11 +1215,11 @@
                             'Distribution: You read ' +
                             sorted[0]
                             .sent + ' and ' + sorted[1]
-                            .sent + ' reviews';
+                            .sent + ' comments';
                     } else {
                         document.getElementById("disttext").innerHTML =
                             '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden = "true"></i>' +
-                            'Distribution: You read all kinds of reviews';
+                            'Distribution: You read all kinds of comments';
                     }
                 }
 
@@ -1305,10 +1230,12 @@
                 document.getElementById("vistext").innerHTML =
                     '<i class="fa fa-square fa-xs" style="margin-right:3px; color:#81d4fa" aria-hidden="true"></i>' +
                     'Visit: You read ' + explored_list[did].length +
-                    ' reviews' + ' (' + width * 1 + '%)';
+                    ' comments' + ' (' + width * 1 + '%)';
             }
         }
     }
+
+// DONE
 
     function refresh_move(bar_id) {
         var elem = document.getElementById(bar_id);
@@ -1322,19 +1249,19 @@
             document.getElementById("covtext").innerHTML =
                 '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#B39DDB" aria-hidden="true"></i>' +
                 'Coverage: You know about ' + width * 1 +
-                '% reviews';
+                '% comments';
         } else if (bar_id == "distributionBar") {
             width = metrics[did].distribution
             document.getElementById("disttext").innerHTML =
                 '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden="true"></i>' +
                 'Distribution: You read ' + width * 1 +
-                '% sentiments';
+                '% comments';
         } else {
             width = metrics[did].visit
             document.getElementById("vistext").innerHTML =
                 '<i class="fa fa-square fa-sm" style="margin-right:3px; color:#81d4fa" aria-hidden="true"></i>' +
                 'Visit: You read ' + width * 1 +
-                '% reviews';
+                '% comments';
         }
 
         elem.style.width = width + '%';
@@ -1342,32 +1269,34 @@
         '</b>';
     }
 
+// DONE
+
     function refresh_sentbar(bar_id){
         proposal_data = full_data[did].discourses
         var pos = 0;
         var neg = 0;
         var neut = 0;
         for (var i in proposal_data){
-            if(proposal_data[i].discourse_name == "Positive")
+            if(proposal_data[i].discourse_name == "For")
                 pos = proposal_data[i].count;
-            else if(proposal_data[i].discourse_name == "Negative")
+            else if(proposal_data[i].discourse_name == "Against")
                 neg = proposal_data[i].count;
             else
                 neut = proposal_data[i].count;
         } 
 
         var total = pos + neg + neut;
-        var read = discourses_array[did].Negative + discourses_array[did].Positive + discourses_array[did].Neutral;
+        var read = discourses_array[did].Against + discourses_array[did].For + discourses_array[did].Neutral;
 
         if(bar_id == "negbar"){
             document.getElementById("negbar").style.width = ((neg / total) * 100).toString() + '%';
-            document.getElementById("negativeBar").style.width = Math.ceil((discourses_array[did].Negative / neg) * 100).toString() + '%';
-            document.getElementById("negativeBar").innerHTML = '<i class="fa fa-minus" style="margin: 0px 3px 0px 3px"></i>' + Math.ceil((discourses_array[did].Negative / neg) * 100).toString() + '%'
+            document.getElementById("negativeBar").style.width = Math.ceil((discourses_array[did].Against / neg) * 100).toString() + '%';
+            document.getElementById("negativeBar").innerHTML = '<i class="fa fa-thumbs-down" style="margin: 0px 3px 0px 3px"></i>' + Math.ceil((discourses_array[did].Against / neg) * 100).toString() + '%'
         }
         if(bar_id == "posbar"){
             document.getElementById("posbar").style.width = ((pos / total) * 100).toString() + '%';
-            document.getElementById("positiveBar").style.width = Math.ceil((discourses_array[did].Positive / pos) * 100).toString() + '%';
-            document.getElementById("positiveBar").innerHTML = '<i class="fa fa-plus" style="margin: 0px 3px 0px 3px"></i>' + Math.ceil((discourses_array[did].Positive / pos) * 100).toString() + '%'
+            document.getElementById("positiveBar").style.width = Math.ceil((discourses_array[did].For / pos) * 100).toString() + '%';
+            document.getElementById("positiveBar").innerHTML = '<i class="fa fa-thumbs-up" style="margin: 0px 3px 0px 3px"></i>' + Math.ceil((discourses_array[did].For / pos) * 100).toString() + '%'
         }
         else{
             document.getElementById("neutbar").style.width = ((neut / total) * 100).toString() + '%';
@@ -1386,9 +1315,9 @@
 
         for (var i in proposal_data.comments) {
             if (explored_ids.includes(proposal_data.comments[i].comment_id.toString())) {
-                if (proposal_data.comments[i].discourse == "Positive") {
+                if (proposal_data.comments[i].discourse == "For") {
                     pos += 1
-                } else if (proposal_data.comments[i].discourse == "Negative") {
+                } else if (proposal_data.comments[i].discourse == "Against") {
                     neg += 1
                 } else {
                     neut += 1
@@ -1397,10 +1326,10 @@
         }
         var total = pos + neg + neut
         var items = [{
-            "sent": "Positive",
+            "sent": "For",
             "count": pos
         }, {
-            "sent": "Negative",
+            "sent": "Against",
             "count": neg
         }, {
             "sent": "Neutral",
@@ -1409,10 +1338,10 @@
         var total = pos + neg + neut
 
         var items = [{
-            "sent": "Positive",
+            "sent": "For",
             "count": pos
         }, {
-            "sent": "Negative",
+            "sent": "Against",
             "count": neg
         }, {
             "sent": "Neutral",
@@ -1432,7 +1361,7 @@
                 '<i class="fa fa-square fa-sm" style="margin-right:2px; color:#FFAB91" aria-hidden="true"></i>' +
                 'Distribution: You read ' +
                 sorted[0]
-                .sent + ' reviews';
+                .sent + ' comments';
         } else {
             var sgroup = ((sorted[1].count / total) - (sorted[2].count / total)) * 100
             if (sgroup > 10) {
@@ -1441,17 +1370,19 @@
                     'Distribution: You read ' +
                     sorted[0]
                     .sent + ' and ' + sorted[1]
-                    .sent + ' reviews';
+                    .sent + ' comments';
             } else {
                 document.getElementById("disttext").innerHTML =
                     '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden = "true"></i>' +
-                    'Distribution: You read all kinds of reviews';
+                    'Distribution: You read all kinds of comments';
             }
         }
 
         // document.getElementById("disttext").innerHTML = '<i class="fa fa-square fa-sm" style="margin-right: 2px; color:#FFAB91" aria-hidden = "true"></i> Distribution: You read ' + explored_list[did].length +
         //             ' sentiments' + ' (' + metrics[did].visit * 1 + '%)';
     }
+
+// DONE
 
     function get_visit() {
         var cnt = 0
@@ -1464,6 +1395,8 @@
         move("visitBar", (cnt / dc_array[did].length) * 100);
     }
 
+// DONE
+    
     function get_distribution() {
         var active_cnt = 0
         var perc_per_discourse = 0
@@ -1491,6 +1424,8 @@
         move("distributionBar", perc_per_discourse);
     }
 
+// DONE
+
     function get_coverage(disc_comments) {
 
         // for (var i in disc_comments) {
@@ -1504,14 +1439,14 @@
 
         $.ajax({
             type: "POST",
-            url: "http://mjasim.pythonanywhere.com/",
+            url: "https://johnyhawk.pythonanywhere.com/",
             data: JSON.stringify({
                 explored: explored_list[did],
                 unexplored: unexplored_list[did]
             }),
             contentType: 'application/json;charset=UTF-8',
             success: function (data, status) {
-                // console.log(data, status);
+                console.log("flask_data", data, status);
 
                 var covered_ids = []
 
@@ -1548,6 +1483,8 @@
             }
         });
     }
+
+// DONE
 
     $(document).ready(function () {
         $(document).on('change', '#area', function () {
@@ -1621,7 +1558,7 @@
 
             did = discussion_id
 
-            logInteraction('click,product_' + did + ',select product from dropdown')
+            logInteraction('click,product_' + did + ',select topic from dropdown')
 
             selected_id_ngram = ""
             prev_selected_id_ngram = ""
@@ -1690,6 +1627,8 @@
         });
     });
 
+// DONE
+
     $(document).on('click', '.topicbtn', function () {
         // console.log($(this)[0].innerText)
         topic_filter = $(this)[0].innerText
@@ -1709,7 +1648,7 @@
         if (prev_selected_id_ngram == selected_id_ngram) {
             logInteraction('click,ngram_' + topic_filter + ',deselect an ngram')
             document.getElementById(selected_id_ngram).setAttribute("style",
-                "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 140px;"
+                "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 180px;"
             )
             selected_id_ngram = ""
             prev_selected_id_ngram = ""
@@ -1723,11 +1662,11 @@
         } else {
             logInteraction('click,ngram_' + topic_filter + ',select an ngram')
             document.getElementById(selected_id_ngram).setAttribute("style",
-                "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px goldenrod; text-align: center; width: 140px;"
+                "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px goldenrod; text-align: center; width: 180px;"
             )
             if (prev_selected_id_ngram) {
                 document.getElementById(prev_selected_id_ngram).setAttribute("style",
-                    "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 140px;"
+                    "margin:5px; background-color: white; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px lightgray; text-align: center; width: 180px;"
                 )
             }
             prev_selected_id_ngram = selected_id_ngram
@@ -1744,6 +1683,8 @@
         }, 1000);
 
     });
+
+// DONE
 
     $(document).on('click', '.discbtn', function () {
         console.log($(this)[0].innerText)
@@ -1788,7 +1729,7 @@
             }
 
         } else {
-            logInteraction('click,sentiment_' + disc_filter + ',select a sentiment')
+            logInteraction('click,sentiment_' + disc_filter + ',select an alignment')
             var styletext =
                 'margin:5px; padding-left:3px; padding-right:3px; border-radius: 5px; border: solid 2px goldenrod; text-align: center; width: 200px; background-color: ' +
                 sent_color + '; color: ' + sent_text;
@@ -1828,6 +1769,8 @@
 
     });
 
+// DONE
+
     function comment_interact(id, textType) {
         var text = ""
         var disc = ""
@@ -1850,11 +1793,11 @@
                 text = full_data[did].comments[i].comment
                 disc = full_data[did].comments[i].discourse
 
-                if(disc == "Positive") discbar = "posbar"
-                else if(disc == "Negative") discbar = "negbar"
+                if(disc == "For") discbar = "posbar"
+                else if(disc == "Against") discbar = "negbar"
                 else discbar = "neutbar"
 
-                // console.log(text)
+                // console.log("ayha ", disc)
                 if (!dc_array[did][i]) {
                     dc_array[did][i] = 1
                     discourses_array[did][full_data[did].comments[i].discourse] += 1
@@ -1900,6 +1843,8 @@
         get_visit()
     }
 
+// DONE
+
     function isScrolledIntoView(elem) {
         var docViewTop = $('#textbox').scrollTop();
         var docViewBottom = docViewTop + $('#textbox').height();
@@ -1932,6 +1877,8 @@
     //     }, 1000)
     // }
 
+// DONE
+
     $(document).on('click', '.commentText', function () {
 
         // console.log(dice_trigger)
@@ -1945,6 +1892,8 @@
         comment_interact($(this)[0].id.substring(8), "commentText")
         // document.getElementById("timing").innerText = " clicked - " + $(this)[0].innerText
     });
+
+// DONE
 
     $(document).on('click', '.serenText', function () {
 
@@ -1981,6 +1930,8 @@
         comment_interact($(this)[0].id.substring(14), "serenText")
     });
 
+// DONE
+
     $(document).on('mouseover', '.commentText', function () {
         time_start = Date.now();
         var delay = ($(this)[0].innerText.split(" ").length / 15) > 4 ? 4000 : ($(this)[0].innerText.split(" ").length / 15) * 1000
@@ -1993,6 +1944,8 @@
         // console.log($(this)[0].innerText, delay)
     });
 
+// DONE
+
     $(document).on('mouseover', '.serenText', function () {
         time_start = Date.now();
         var delay = ($(this)[0].innerText.split(" ").length / 15) > 4 ? 4000 : ($(this)[0].innerText.split(" ").length / 15) * 1000
@@ -2004,6 +1957,8 @@
         }
         // console.log($(this)[0].innerText, start)
     });
+
+// DONE
 
     $(document).on('mouseout', '.commentText', function () {
         document.getElementById("commentloading").style.display = "none"
@@ -2024,6 +1979,8 @@
             comment_interact($(this)[0].id.substring(8), "commentText")
         }
     });
+
+// DONE
 
     $(document).on('mouseout', '.serenText', function () {
         document.getElementById("commentloading").style.display = "none"
@@ -2058,6 +2015,8 @@
     //     document.getElementById("coordinate").innerText = event.pageX + ", " + event.pageY
     // });
 
+// DONE
+
     function random_seren() {
         var random_idx = []
         // Math.seedrandom(); // seeding
@@ -2080,10 +2039,10 @@
         divSum = document.createElement("div")
         var divHTML = ''
         for (var i = 0; i < 5; i++) {
-            if (proposal_data.comments[random_idx[i]].discourse == "Positive") {
-                sent = '<i class="fa fa-plus" style="margin-right:5px"></i>'
-            } else if (proposal_data.comments[random_idx[i]].discourse == "Negative") {
-                sent = '<i class="fa fa-minus"></i>'
+            if (proposal_data.comments[random_idx[i]].discourse == "For") {
+                sent = '<i class="fa fa-thumbs-up" style="margin-right:5px"></i>'
+            } else if (proposal_data.comments[random_idx[i]].discourse == "Against") {
+                sent = '<i class="fa fa-thumbs-down"></i>'
             } else {
                 sent = '<i class="fa fa-circle-o"></i>'
             }
@@ -2101,6 +2060,8 @@
         }
 
     }
+
+// DONE
 
     function prev_seren() {
 
@@ -2127,10 +2088,10 @@
         divSum = document.createElement("div")
         var divHTML = ''
         for (var i = 0; i < 5; i++) {
-            if (proposal_data.comments[random_idx[i]].discourse == "Positive") {
-                sent = '<i class="fa fa-plus" style="margin-right:5px"></i>'
-            } else if (proposal_data.comments[random_idx[i]].discourse == "Negative") {
-                sent = '<i class="fa fa-minus"></i>'
+            if (proposal_data.comments[random_idx[i]].discourse == "For") {
+                sent = '<i class="fa fa-thumbs-up" style="margin-right:5px"></i>'
+            } else if (proposal_data.comments[random_idx[i]].discourse == "Against") {
+                sent = '<i class="fa fa-thumbs-down"></i>'
             } else {
                 sent = '<i class="fa fa-circle-o"></i>'
             }
@@ -2167,7 +2128,9 @@
         myNode.appendChild(divSum)
 
     }
-    
+
+// DONE
+
     function dice_toggle() {
         if (dice_trigger == 0) {
             // logInteraction('click,dice,get suggested comments')
@@ -2199,7 +2162,7 @@
                 "display:flex; flex-direction: row; width: 95%; border: solid thin lightgray"
             )
 
-            document.getElementById("serenheader").textContent = '\xa0\xa0 Suggested reviews that You may find useful:'
+            document.getElementById("serenheader").textContent = '\xa0\xa0 Suggested comments that You may find useful:'
 
             // document.getElementById("dicetoggle").setAttribute("style",
             //     "width: 150px; height: 23px; background-color: green; color:white; border: solid thin black; border-radius: 2px; margin-left: 5%; text-align: center;"
@@ -2254,6 +2217,8 @@
     //     dice_toggle()
     // });
 
+// DONE
+
     $(document).ready(function () {
         $('input[type="checkbox"]').click(function () {
             if ($(this).is(":checked")) {
@@ -2268,6 +2233,8 @@
         });
     });
 
+// DONE
+
     $('#textbox').on('scroll', function () {
         var x = document.getElementById("textbox").childNodes
 
@@ -2281,6 +2248,7 @@
         }
     });
 
+// DONE
 
     function calc_tiny_visit(category, tag, totalcount) {
         var proposal_data = full_data[did]
@@ -2318,6 +2286,8 @@
         return ((met_count / totalcount) * 100)
     }
 
+// DONE
+
     function calc_tiny_cover(category, tag, totalcount) {
         var proposal_data = full_data[did]
         var covered_ids = []
@@ -2353,6 +2323,8 @@
         return ((met_count / totalcount) * 100)
     }
 
+// DONE
+
     function calc_tiny_dist(category, tag, totalcount) {
         var proposal_data = full_data[did]
         var explored_ids = []
@@ -2380,9 +2352,9 @@
             if ((proposal_data.comments[i].comment.toLowerCase().includes(tag.split(" ")[0]) &&
                     proposal_data.comments[i].comment.toLowerCase().includes(tag.split(" ")[1]))) {
                 // console.log("here")
-                if (proposal_data.comments[i].discourse == "Positive") {
+                if (proposal_data.comments[i].discourse == "For") {
                     tot_pos += 1
-                } else if (proposal_data.comments[i].discourse == "Negative") {
+                } else if (proposal_data.comments[i].discourse == "Against") {
                     tot_neg += 1
                 } else {
                     tot_neut += 1
@@ -2412,9 +2384,9 @@
                     // console.log("found explored")
                     if ((proposal_data.comments[i].comment.toLowerCase().includes(tag.split(" ")[0]) &&
                             proposal_data.comments[i].comment.toLowerCase().includes(tag.split(" ")[1]))) {
-                        if (proposal_data.comments[i].discourse == "Positive") {
+                        if (proposal_data.comments[i].discourse == "For") {
                             pos += 1
-                        } else if (proposal_data.comments[i].discourse == "Negative") {
+                        } else if (proposal_data.comments[i].discourse == "Against") {
                             neg += 1
                         } else {
                             neut += 1
@@ -2440,9 +2412,13 @@
         return met_return
     }
 
+// DONE
+
     function gototutorial() {
         window.open('tutorial.html', "_blank")
     }
+
+// DONE
 
     $(document).on('mouseover', '.metbar', function () {
 
@@ -2577,6 +2553,8 @@
         }
     });
 
+// DONE
+
     $(document).on('mouseout', '.metbar', function () {
         if (did) {
             var x_array = document.getElementsByClassName("tinybar")
@@ -2611,6 +2589,8 @@
             }
         }
     });
+
+// DONE
 
     $(document).on('click', '.metbar', function () {
         if (did) {
@@ -2654,26 +2634,26 @@
                     if (id == "visitback") {
                         met_comment_list = explored_list[did]
                         met_color = 'style=\"background-color: #81d4fa\"'
-                        met_header = "Reviews interacted with: "
+                        met_header = "Comments interacted with: "
                         met_bar = "Visit - "
                     } else if (id == "distback") {
                         met_comment_list = explored_list[did]
                         met_color = 'style=\"background-color: #FFAB91\"'
-                        met_header = "Sentiments in reviews interacted with: "
+                        met_header = "Alignments in comments interacted with: "
                         met_bar = "Distribution - "
                     } else {
                         met_comment_list = covered_list[did]
                         met_color = 'style=\"background-color: #B39DDB\"'
-                        met_header = "reviews covered: "
+                        met_header = "Comments covered: "
                         met_bar = "Coverage - "
                     }
 
                     for (var i in met_comment_list) {
 
-                        if (met_comment_list[i].disc == "Positive") {
-                            sent = '<i class="fa fa-plus"></i>'
-                        } else if (met_comment_list[i].disc == "Negative") {
-                            sent = '<i class="fa fa-minus"></i>'
+                        if (met_comment_list[i].disc == "For") {
+                            sent = '<i class="fa fa-thumbs-up"></i>'
+                        } else if (met_comment_list[i].disc == "Against") {
+                            sent = '<i class="fa fa-thumbs-down"></i>'
                         } else {
                             sent = '<i class="fa fa-circle-o"></i>'
                         }
@@ -2681,7 +2661,7 @@
                         console.log("metbar", topic_filter, disc_filter)
 
                         if (topic_filter && disc_filter) {
-                            met_header = disc_filter + " reviews interacted with keyword \"" + topic_filter +
+                            met_header = disc_filter + " comments interacted with keyword \"" + topic_filter +
                                 "\": "
 
                             var tokens = met_comment_list[i].text.toLowerCase().split(" ");
@@ -2707,7 +2687,7 @@
                                 myNode.appendChild(divSum)
                             }
                         } else if (topic_filter && !disc_filter) {
-                            met_header = "reviews with keyword \"" + topic_filter + "\": "
+                            met_header = "comments with keyword \"" + topic_filter + "\": "
                             var tokens = met_comment_list[i].text.toLowerCase().split(" ");
                             if ((met_comment_list[i].text.toLowerCase().includes(topic_filter.split(
                                         " ")[0].toLowerCase()) && met_comment_list[i].text
@@ -2731,7 +2711,7 @@
                                 myNode.appendChild(divSum)
                             }
                         } else if (disc_filter && !topic_filter) {
-                            headertext = disc_filter + " reviews: "
+                            headertext = disc_filter + " comments: "
                             if (disc_filter == met_comment_list[i].disc) {
                                 count += 1
                                 var divSum = document.createElement("div")
@@ -2775,10 +2755,14 @@
         }
     })
 
+// DONE
+
     $("#navSearch").submit(function (e) {
         console.log("trying to sub")
         e.preventDefault();
     });
+
+// DONE
 
     $('#navSearch').keyup(function (e) {
         if (e.keyCode == 13) {
